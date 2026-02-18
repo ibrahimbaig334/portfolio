@@ -1,0 +1,309 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Match portfolio-v2 look & feel (fonts, scrollbar, a11y focus) */
+@layer base {
+  :root {
+    --font-inter: Inter;
+    --font-poppins: Poppins;
+  }
+
+  * {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply bg-white text-gray-900 antialiased dark:bg-gray-900 dark:text-gray-100;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    @apply w-3;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-gray-100 dark:bg-gray-800;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply rounded-full bg-primary-500 dark:bg-primary-600;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-primary-600 dark:bg-primary-500;
+  }
+
+  /* Focus visible styles for better accessibility */
+  *:focus-visible {
+    @apply outline-none ring-2 ring-primary-500 ring-offset-2 ring-offset-white dark:ring-primary-400 dark:ring-offset-gray-900;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+  }
+}
+
+@layer components {
+  .animate-gradient {
+    background-size: 200% 200%;
+    animation: gradient 8s ease infinite;
+  }
+  .animate-slideIn {
+    animation: slideIn 0.3s ease-out;
+  }
+
+  /* Reusable glassmorphism surface for cards/panels */
+  .glass-panel {
+    @apply rounded-2xl border border-white/35 bg-white/70 shadow-xl backdrop-blur-md;
+    @apply text-gray-900 dark:border-white/10 dark:bg-gray-900/55 dark:text-gray-100;
+  }
+
+  .glass-panel-soft {
+    @apply rounded-2xl border border-white/25 bg-white/55 shadow-lg backdrop-blur;
+    @apply text-gray-900 dark:border-white/10 dark:bg-gray-900/45 dark:text-gray-100;
+  }
+
+  /* Animated tech stack pills */
+  .tech-pill {
+    position: relative;
+    overflow: hidden;
+    border-radius: 9999px;
+    padding: 0.35rem 0.75rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    color: rgba(255, 255, 255, 0.92);
+    background-image: linear-gradient(
+      135deg,
+      var(--tech-a, rgba(59, 130, 246, 0.95)),
+      var(--tech-b, rgba(147, 51, 234, 0.95))
+    );
+    box-shadow:
+      0 10px 30px rgba(0, 0, 0, 0.18),
+      inset 0 0 0 1px rgba(255, 255, 255, 0.14);
+    transform: translateZ(0);
+    animation: tech-float 5.2s ease-in-out infinite;
+    will-change: transform;
+  }
+
+  .tech-pill::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      90deg,
+      transparent,
+      rgba(255, 255, 255, 0.35),
+      transparent
+    );
+    transform: translateX(-120%);
+    animation: tech-shine 2.4s ease-in-out infinite;
+  }
+
+  .dark .tech-pill {
+    box-shadow:
+      0 12px 34px rgba(0, 0, 0, 0.45),
+      inset 0 0 0 1px rgba(255, 255, 255, 0.1);
+  }
+}
+
+@keyframes tech-shine {
+  0% {
+    transform: translateX(-120%);
+    opacity: 0.15;
+  }
+  35% {
+    opacity: 0.35;
+  }
+  100% {
+    transform: translateX(120%);
+    opacity: 0.15;
+  }
+}
+
+@keyframes tech-float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
+}
+
+/* Avatar animations (Hero image) */
+@keyframes avatar-float {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+  50% {
+    transform: translate3d(0, -6px, 0);
+  }
+}
+
+.animate-avatar-float {
+  animation: avatar-float 5.6s ease-in-out infinite;
+}
+
+/* Slow spin used for the Hero profile hover ring (ported from portfolio-v2) */
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 10s linear infinite;
+}
+
+/* Keyframes used across ported sections (replaces Next.js style-jsx blocks) */
+@keyframes gradient {
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInScale {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Boot loader */
+@keyframes boot-loader-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes boot-loader-pulse {
+  0%,
+  100% {
+    opacity: 0.55;
+    transform: translate(-50%, -50%) scale(0.9);
+  }
+  50% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1.08);
+  }
+}
+
+.boot-loader-ring {
+  border-radius: 9999px;
+  border: 3px solid rgba(99, 102, 241, 0.16);
+  border-top-color: rgba(99, 102, 241, 0.95);
+  border-right-color: rgba(236, 72, 153, 0.72);
+  animation: boot-loader-spin 1s linear infinite;
+}
+
+.boot-loader-ring-delay {
+  animation-duration: 1.45s;
+  animation-direction: reverse;
+  border-top-color: rgba(16, 185, 129, 0.88);
+  border-right-color: rgba(99, 102, 241, 0.5);
+}
+
+.boot-loader-dot {
+  animation: boot-loader-pulse 1.1s ease-in-out infinite;
+  box-shadow: 0 0 0 8px rgba(99, 102, 241, 0.12);
+}
+
+.dark .boot-loader-ring {
+  border-color: rgba(255, 255, 255, 0.14);
+  border-top-color: rgba(129, 140, 248, 0.95);
+  border-right-color: rgba(244, 114, 182, 0.72);
+}
+
+.dark .boot-loader-ring-delay {
+  border-top-color: rgba(52, 211, 153, 0.88);
+  border-right-color: rgba(129, 140, 248, 0.55);
+}
+
+/* Mesmerizing global background (canvas) */
+.mesmerizing-bg {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.mesmerizing-bg__canvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.mesmerizing-bg__vignette {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(
+      circle at 50% 40%,
+      transparent 0%,
+      rgba(0, 0, 0, 0.35) 70%,
+      rgba(0, 0, 0, 0.55) 100%
+    ),
+    linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.25),
+      transparent 40%,
+      rgba(0, 0, 0, 0.35)
+    );
+  opacity: 0.25;
+}
+
+.dark .mesmerizing-bg__vignette {
+  opacity: 0.45;
+}

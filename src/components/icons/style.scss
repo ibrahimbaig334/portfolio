@@ -1,0 +1,4434 @@
+@import "variables";
+
+@font-face {
+  font-family: "#{$icomoon-font-family}";
+  src: url("#{$icomoon-font-path}/#{$icomoon-font-family}.eot?q1qwjd");
+  src:
+    url("#{$icomoon-font-path}/#{$icomoon-font-family}.eot?q1qwjd#iefix")
+      format("embedded-opentype"),
+    url("#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?q1qwjd")
+      format("truetype"),
+    url("#{$icomoon-font-path}/#{$icomoon-font-family}.woff?q1qwjd")
+      format("woff"),
+    url("#{$icomoon-font-path}/#{$icomoon-font-family}.svg?q1qwjd##{$icomoon-font-family}")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="x-"],
+[class*=" x-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "#{$icomoon-font-family}" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.x-htmlandcss .path1 {
+  &:before {
+    content: $x-htmlandcss-path1;
+    color: rgb(226, 80, 37);
+  }
+}
+.x-htmlandcss .path2 {
+  &:before {
+    content: $x-htmlandcss-path2;
+    margin-left: -2.001953125em;
+    color: rgb(22, 114, 182);
+  }
+}
+.x-htmlandcss .path3 {
+  &:before {
+    content: $x-htmlandcss-path3;
+    margin-left: -2.001953125em;
+    color: rgb(254, 254, 253);
+  }
+}
+.x-htmlandcss .path4 {
+  &:before {
+    content: $x-htmlandcss-path4;
+    margin-left: -2.001953125em;
+    color: rgb(253, 254, 254);
+  }
+}
+.x-htmlandcss .path5 {
+  &:before {
+    content: $x-htmlandcss-path5;
+    margin-left: -2.001953125em;
+    color: rgb(239, 101, 42);
+  }
+}
+.x-htmlandcss .path6 {
+  &:before {
+    content: $x-htmlandcss-path6;
+    margin-left: -2.001953125em;
+    color: rgb(52, 169, 219);
+  }
+}
+.x-htmlandcss .path7 {
+  &:before {
+    content: $x-htmlandcss-path7;
+    margin-left: -2.001953125em;
+    color: rgb(235, 234, 234);
+  }
+}
+.x-htmlandcss .path8 {
+  &:before {
+    content: $x-htmlandcss-path8;
+    margin-left: -2.001953125em;
+    color: rgb(234, 234, 235);
+  }
+}
+.x-htmlandcss .path9 {
+  &:before {
+    content: $x-htmlandcss-path9;
+    margin-left: -2.001953125em;
+    color: rgb(235, 234, 234);
+  }
+}
+.x-htmlandcss .path10 {
+  &:before {
+    content: $x-htmlandcss-path10;
+    margin-left: -2.001953125em;
+    color: rgb(233, 234, 235);
+  }
+}
+.x-htmlandcss .path11 {
+  &:before {
+    content: $x-htmlandcss-path11;
+    margin-left: -2.001953125em;
+    color: rgb(254, 254, 254);
+  }
+}
+.x-htmlandcss .path12 {
+  &:before {
+    content: $x-htmlandcss-path12;
+    margin-left: -2.001953125em;
+    color: rgb(52, 169, 219);
+  }
+}
+.x-htmlandcss .path13 {
+  &:before {
+    content: $x-htmlandcss-path13;
+    margin-left: -2.001953125em;
+    color: rgb(239, 101, 42);
+  }
+}
+.x-htmlandcss .path14 {
+  &:before {
+    content: $x-htmlandcss-path14;
+    margin-left: -2.001953125em;
+    color: rgb(51, 169, 219);
+  }
+}
+.x-htmlandcss .path15 {
+  &:before {
+    content: $x-htmlandcss-path15;
+    margin-left: -2.001953125em;
+    color: rgb(225, 79, 36);
+  }
+}
+.x-htmlandcss .path16 {
+  &:before {
+    content: $x-htmlandcss-path16;
+    margin-left: -2.001953125em;
+    color: rgb(232, 234, 236);
+  }
+}
+.x-htmlandcss .path17 {
+  &:before {
+    content: $x-htmlandcss-path17;
+    margin-left: -2.001953125em;
+    color: rgb(230, 218, 209);
+  }
+}
+.x-htmlandcss .path18 {
+  &:before {
+    content: $x-htmlandcss-path18;
+    margin-left: -2.001953125em;
+    color: rgb(64, 166, 211);
+  }
+}
+.x-htmlandcss .path19 {
+  &:before {
+    content: $x-htmlandcss-path19;
+    margin-left: -2.001953125em;
+    color: rgb(227, 78, 40);
+  }
+}
+.x-htmlandcss .path20 {
+  &:before {
+    content: $x-htmlandcss-path20;
+    margin-left: -2.001953125em;
+    color: rgb(62, 135, 191);
+  }
+}
+.x-htmlandcss .path21 {
+  &:before {
+    content: $x-htmlandcss-path21;
+    margin-left: -2.001953125em;
+    color: rgb(83, 163, 197);
+  }
+}
+.x-htmlandcss .path22 {
+  &:before {
+    content: $x-htmlandcss-path22;
+    margin-left: -2.001953125em;
+    color: rgb(215, 100, 58);
+  }
+}
+.x-htmlandcss .path23 {
+  &:before {
+    content: $x-htmlandcss-path23;
+    margin-left: -2.001953125em;
+    color: rgb(225, 97, 61);
+  }
+}
+.x-htmlandcss .path24 {
+  &:before {
+    content: $x-htmlandcss-path24;
+    margin-left: -2.001953125em;
+    color: rgb(229, 229, 227);
+  }
+}
+.x-htmlandcss .path25 {
+  &:before {
+    content: $x-htmlandcss-path25;
+    margin-left: -2.001953125em;
+    color: rgb(24, 112, 175);
+  }
+}
+.x-htmlandcss .path26 {
+  &:before {
+    content: $x-htmlandcss-path26;
+    margin-left: -2.001953125em;
+    color: rgb(210, 231, 244);
+  }
+}
+.x-htmlandcss .path27 {
+  &:before {
+    content: $x-htmlandcss-path27;
+    margin-left: -2.001953125em;
+    color: rgb(31, 111, 167);
+  }
+}
+.x-htmlandcss .path28 {
+  &:before {
+    content: $x-htmlandcss-path28;
+    margin-left: -2.001953125em;
+    color: rgb(227, 78, 39);
+  }
+}
+.x-htmlandcss .path29 {
+  &:before {
+    content: $x-htmlandcss-path29;
+    margin-left: -2.001953125em;
+    color: rgb(225, 104, 71);
+  }
+}
+.x-htmlandcss .path30 {
+  &:before {
+    content: $x-htmlandcss-path30;
+    margin-left: -2.001953125em;
+    color: rgb(55, 132, 190);
+  }
+}
+.x-htmlandcss .path31 {
+  &:before {
+    content: $x-htmlandcss-path31;
+    margin-left: -2.001953125em;
+    color: rgb(214, 248, 254);
+  }
+}
+.x-htmlandcss .path32 {
+  &:before {
+    content: $x-htmlandcss-path32;
+    margin-left: -2.001953125em;
+    color: rgb(254, 227, 217);
+  }
+}
+.x-htmlandcss .path33 {
+  &:before {
+    content: $x-htmlandcss-path33;
+    margin-left: -2.001953125em;
+    color: rgb(37, 116, 175);
+  }
+}
+.x-htmlandcss .path34 {
+  &:before {
+    content: $x-htmlandcss-path34;
+    margin-left: -2.001953125em;
+    color: rgb(229, 102, 73);
+  }
+}
+.x-htmlandcss .path35 {
+  &:before {
+    content: $x-htmlandcss-path35;
+    margin-left: -2.001953125em;
+    color: rgb(226, 119, 89);
+  }
+}
+.x-htmlandcss .path36 {
+  &:before {
+    content: $x-htmlandcss-path36;
+    margin-left: -2.001953125em;
+    color: rgb(231, 74, 43);
+  }
+}
+.x-htmlandcss .path37 {
+  &:before {
+    content: $x-htmlandcss-path37;
+    margin-left: -2.001953125em;
+    color: rgb(223, 84, 54);
+  }
+}
+.x-htmlandcss .path38 {
+  &:before {
+    content: $x-htmlandcss-path38;
+    margin-left: -2.001953125em;
+    color: rgb(242, 233, 226);
+  }
+}
+.x-htmlandcss .path39 {
+  &:before {
+    content: $x-htmlandcss-path39;
+    margin-left: -2.001953125em;
+    color: rgb(234, 163, 148);
+  }
+}
+.x-htmlandcss .path40 {
+  &:before {
+    content: $x-htmlandcss-path40;
+    margin-left: -2.001953125em;
+    color: rgb(95, 154, 198);
+  }
+}
+.x-htmlandcss .path41 {
+  &:before {
+    content: $x-htmlandcss-path41;
+    margin-left: -2.001953125em;
+    color: rgb(225, 107, 79);
+  }
+}
+.x-htmlandcss .path42 {
+  &:before {
+    content: $x-htmlandcss-path42;
+    margin-left: -2.001953125em;
+    color: rgb(224, 141, 113);
+  }
+}
+.x-htmlandcss .path43 {
+  &:before {
+    content: $x-htmlandcss-path43;
+    margin-left: -2.001953125em;
+    color: rgb(236, 151, 131);
+  }
+}
+.x-htmlandcss .path44 {
+  &:before {
+    content: $x-htmlandcss-path44;
+    margin-left: -2.001953125em;
+    color: rgb(231, 119, 92);
+  }
+}
+.x-htmlandcss .path45 {
+  &:before {
+    content: $x-htmlandcss-path45;
+    margin-left: -2.001953125em;
+    color: rgb(220, 82, 39);
+  }
+}
+.x-htmlandcss .path46 {
+  &:before {
+    content: $x-htmlandcss-path46;
+    margin-left: -2.001953125em;
+    color: rgb(99, 158, 200);
+  }
+}
+.x-htmlandcss .path47 {
+  &:before {
+    content: $x-htmlandcss-path47;
+    margin-left: -2.001953125em;
+    color: rgb(221, 86, 47);
+  }
+}
+.x-htmlandcss .path48 {
+  &:before {
+    content: $x-htmlandcss-path48;
+    margin-left: -2.001953125em;
+    color: rgb(243, 217, 208);
+  }
+}
+.x-htmlandcss .path49 {
+  &:before {
+    content: $x-htmlandcss-path49;
+    margin-left: -2.001953125em;
+    color: rgb(230, 157, 141);
+  }
+}
+.x-htmlandcss .path50 {
+  &:before {
+    content: $x-htmlandcss-path50;
+    margin-left: -2.001953125em;
+    color: rgb(223, 129, 101);
+  }
+}
+.x-htmlandcss .path51 {
+  &:before {
+    content: $x-htmlandcss-path51;
+    margin-left: -2.001953125em;
+    color: rgb(241, 99, 48);
+  }
+}
+.x-htmlandcss .path52 {
+  &:before {
+    content: $x-htmlandcss-path52;
+    margin-left: -2.001953125em;
+    color: rgb(98, 160, 208);
+  }
+}
+.x-htmlandcss .path53 {
+  &:before {
+    content: $x-htmlandcss-path53;
+    margin-left: -2.001953125em;
+    color: rgb(134, 173, 202);
+  }
+}
+.x-htmlandcss .path54 {
+  &:before {
+    content: $x-htmlandcss-path54;
+    margin-left: -2.001953125em;
+    color: rgb(225, 130, 106);
+  }
+}
+.x-htmlandcss .path55 {
+  &:before {
+    content: $x-htmlandcss-path55;
+    margin-left: -2.001953125em;
+    color: rgb(226, 123, 92);
+  }
+}
+.x-htmlandcss .path56 {
+  &:before {
+    content: $x-htmlandcss-path56;
+    margin-left: -2.001953125em;
+    color: rgb(84, 146, 193);
+  }
+}
+.x-htmlandcss .path57 {
+  &:before {
+    content: $x-htmlandcss-path57;
+    margin-left: -2.001953125em;
+    color: rgb(128, 168, 197);
+  }
+}
+.x-htmlandcss .path58 {
+  &:before {
+    content: $x-htmlandcss-path58;
+    margin-left: -2.001953125em;
+    color: rgb(236, 104, 54);
+  }
+}
+.x-htmlandcss .path59 {
+  &:before {
+    content: $x-htmlandcss-path59;
+    margin-left: -2.001953125em;
+    color: rgb(232, 171, 157);
+  }
+}
+.x-htmlandcss .path60 {
+  &:before {
+    content: $x-htmlandcss-path60;
+    margin-left: -2.001953125em;
+    color: rgb(222, 146, 129);
+  }
+}
+.x-htmlandcss .path61 {
+  &:before {
+    content: $x-htmlandcss-path61;
+    margin-left: -2.001953125em;
+    color: rgb(31, 113, 174);
+  }
+}
+.x-htmlandcss .path62 {
+  &:before {
+    content: $x-htmlandcss-path62;
+    margin-left: -2.001953125em;
+    color: rgb(130, 172, 203);
+  }
+}
+.x-htmlandcss .path63 {
+  &:before {
+    content: $x-htmlandcss-path63;
+    margin-left: -2.001953125em;
+    color: rgb(150, 188, 216);
+  }
+}
+.x-htmlandcss .path64 {
+  &:before {
+    content: $x-htmlandcss-path64;
+    margin-left: -2.001953125em;
+    color: rgb(234, 171, 150);
+  }
+}
+.x-htmlandcss .path65 {
+  &:before {
+    content: $x-htmlandcss-path65;
+    margin-left: -2.001953125em;
+    color: rgb(241, 221, 216);
+  }
+}
+.x-htmlandcss .path66 {
+  &:before {
+    content: $x-htmlandcss-path66;
+    margin-left: -2.001953125em;
+    color: rgb(232, 149, 132);
+  }
+}
+.x-htmlandcss .path67 {
+  &:before {
+    content: $x-htmlandcss-path67;
+    margin-left: -2.001953125em;
+    color: rgb(227, 163, 141);
+  }
+}
+.x-htmlandcss .path68 {
+  &:before {
+    content: $x-htmlandcss-path68;
+    margin-left: -2.001953125em;
+    color: rgb(81, 172, 208);
+  }
+}
+.x-htmlandcss .path69 {
+  &:before {
+    content: $x-htmlandcss-path69;
+    margin-left: -2.001953125em;
+    color: rgb(165, 197, 222);
+  }
+}
+.x-htmlandcss .path70 {
+  &:before {
+    content: $x-htmlandcss-path70;
+    margin-left: -2.001953125em;
+    color: rgb(217, 95, 58);
+  }
+}
+.x-htmlandcss .path71 {
+  &:before {
+    content: $x-htmlandcss-path71;
+    margin-left: -2.001953125em;
+    color: rgb(66, 169, 215);
+  }
+}
+.x-htmlandcss .path72 {
+  &:before {
+    content: $x-htmlandcss-path72;
+    margin-left: -2.001953125em;
+    color: rgb(230, 111, 60);
+  }
+}
+.x-htmlandcss .path73 {
+  &:before {
+    content: $x-htmlandcss-path73;
+    margin-left: -2.001953125em;
+    color: rgb(235, 183, 170);
+  }
+}
+.x-htmlandcss .path74 {
+  &:before {
+    content: $x-htmlandcss-path74;
+    margin-left: -2.001953125em;
+    color: rgb(225, 118, 84);
+  }
+}
+.x-htmlandcss .path75 {
+  &:before {
+    content: $x-htmlandcss-path75;
+    margin-left: -2.001953125em;
+    color: rgb(235, 187, 173);
+  }
+}
+.x-htmlandcss .path76 {
+  &:before {
+    content: $x-htmlandcss-path76;
+    margin-left: -2.001953125em;
+    color: rgb(248, 223, 218);
+  }
+}
+.x-htmlandcss .path77 {
+  &:before {
+    content: $x-htmlandcss-path77;
+    margin-left: -2.001953125em;
+    color: rgb(66, 172, 210);
+  }
+}
+.x-htmlandcss .path78 {
+  &:before {
+    content: $x-htmlandcss-path78;
+    margin-left: -2.001953125em;
+    color: rgb(68, 141, 191);
+  }
+}
+.x-htmlandcss .path79 {
+  &:before {
+    content: $x-htmlandcss-path79;
+    margin-left: -2.001953125em;
+    color: rgb(217, 88, 45);
+  }
+}
+.x-htmlandcss .path80 {
+  &:before {
+    content: $x-htmlandcss-path80;
+    margin-left: -2.001953125em;
+    color: rgb(51, 132, 194);
+  }
+}
+.x-htmlandcss .path81 {
+  &:before {
+    content: $x-htmlandcss-path81;
+    margin-left: -2.001953125em;
+    color: rgb(125, 168, 200);
+  }
+}
+.x-htmlandcss .path82 {
+  &:before {
+    content: $x-htmlandcss-path82;
+    margin-left: -2.001953125em;
+    color: rgb(225, 143, 117);
+  }
+}
+.x-htmlandcss .path83 {
+  &:before {
+    content: $x-htmlandcss-path83;
+    margin-left: -2.001953125em;
+    color: rgb(228, 117, 84);
+  }
+}
+.x-htmlandcss .path84 {
+  &:before {
+    content: $x-htmlandcss-path84;
+    margin-left: -2.001953125em;
+    color: rgb(225, 159, 138);
+  }
+}
+.x-htmlandcss .path85 {
+  &:before {
+    content: $x-htmlandcss-path85;
+    margin-left: -2.001953125em;
+    color: rgb(235, 105, 33);
+  }
+}
+.x-htmlandcss .path86 {
+  &:before {
+    content: $x-htmlandcss-path86;
+    margin-left: -2.001953125em;
+    color: rgb(217, 116, 80);
+  }
+}
+.x-htmlandcss .path87 {
+  &:before {
+    content: $x-htmlandcss-path87;
+    margin-left: -2.001953125em;
+    color: rgb(97, 154, 196);
+  }
+}
+.x-htmlandcss .path88 {
+  &:before {
+    content: $x-htmlandcss-path88;
+    margin-left: -2.001953125em;
+    color: rgb(215, 92, 60);
+  }
+}
+.x-htmlandcss .path89 {
+  &:before {
+    content: $x-htmlandcss-path89;
+    margin-left: -2.001953125em;
+    color: rgb(225, 144, 123);
+  }
+}
+.x-htmlandcss .path90 {
+  &:before {
+    content: $x-htmlandcss-path90;
+    margin-left: -2.001953125em;
+    color: rgb(225, 148, 122);
+  }
+}
+.x-htmlandcss .path91 {
+  &:before {
+    content: $x-htmlandcss-path91;
+    margin-left: -2.001953125em;
+    color: rgb(238, 177, 161);
+  }
+}
+.x-htmlandcss .path92 {
+  &:before {
+    content: $x-htmlandcss-path92;
+    margin-left: -2.001953125em;
+    color: rgb(237, 219, 205);
+  }
+}
+.x-htmlandcss .path93 {
+  &:before {
+    content: $x-htmlandcss-path93;
+    margin-left: -2.001953125em;
+    color: rgb(219, 232, 241);
+  }
+}
+.x-htmlandcss .path94 {
+  &:before {
+    content: $x-htmlandcss-path94;
+    margin-left: -2.001953125em;
+    color: rgb(12, 114, 190);
+  }
+}
+.x-htmlandcss .path95 {
+  &:before {
+    content: $x-htmlandcss-path95;
+    margin-left: -2.001953125em;
+    color: rgb(227, 116, 68);
+  }
+}
+.x-htmlandcss .path96 {
+  &:before {
+    content: $x-htmlandcss-path96;
+    margin-left: -2.001953125em;
+    color: rgb(44, 112, 164);
+  }
+}
+.x-htmlandcss .path97 {
+  &:before {
+    content: $x-htmlandcss-path97;
+    margin-left: -2.001953125em;
+    color: rgb(245, 218, 208);
+  }
+}
+.x-htmlandcss .path98 {
+  &:before {
+    content: $x-htmlandcss-path98;
+    margin-left: -2.001953125em;
+    color: rgb(233, 127, 86);
+  }
+}
+.x-htmlandcss .path99 {
+  &:before {
+    content: $x-htmlandcss-path99;
+    margin-left: -2.001953125em;
+    color: rgb(173, 201, 221);
+  }
+}
+.x-htmlandcss .path100 {
+  &:before {
+    content: $x-htmlandcss-path100;
+    margin-left: -2.001953125em;
+    color: rgb(244, 219, 202);
+  }
+}
+.x-htmlandcss .path101 {
+  &:before {
+    content: $x-htmlandcss-path101;
+    margin-left: -2.001953125em;
+    color: rgb(224, 137, 112);
+  }
+}
+.x-htmlandcss .path102 {
+  &:before {
+    content: $x-htmlandcss-path102;
+    margin-left: -2.001953125em;
+    color: rgb(239, 223, 226);
+  }
+}
+.x-htmlandcss .path103 {
+  &:before {
+    content: $x-htmlandcss-path103;
+    margin-left: -2.001953125em;
+    color: rgb(135, 185, 224);
+  }
+}
+.x-htmlandcss .path104 {
+  &:before {
+    content: $x-htmlandcss-path104;
+    margin-left: -2.001953125em;
+    color: rgb(254, 226, 215);
+  }
+}
+.x-htmlandcss .path105 {
+  &:before {
+    content: $x-htmlandcss-path105;
+    margin-left: -2.001953125em;
+    color: rgb(244, 224, 222);
+  }
+}
+.x-htmlandcss .path106 {
+  &:before {
+    content: $x-htmlandcss-path106;
+    margin-left: -2.001953125em;
+    color: rgb(249, 226, 211);
+  }
+}
+.x-htmlandcss .path107 {
+  &:before {
+    content: $x-htmlandcss-path107;
+    margin-left: -2.001953125em;
+    color: rgb(31, 111, 171);
+  }
+}
+.x-htmlandcss .path108 {
+  &:before {
+    content: $x-htmlandcss-path108;
+    margin-left: -2.001953125em;
+    color: rgb(34, 114, 170);
+  }
+}
+.x-htmlandcss .path109 {
+  &:before {
+    content: $x-htmlandcss-path109;
+    margin-left: -2.001953125em;
+    color: rgb(68, 167, 199);
+  }
+}
+.x-htmlandcss .path110 {
+  &:before {
+    content: $x-htmlandcss-path110;
+    margin-left: -2.001953125em;
+    color: rgb(232, 105, 54);
+  }
+}
+.x-htmlandcss .path111 {
+  &:before {
+    content: $x-htmlandcss-path111;
+    margin-left: -2.001953125em;
+    color: rgb(217, 85, 52);
+  }
+}
+.x-htmlandcss .path112 {
+  &:before {
+    content: $x-htmlandcss-path112;
+    margin-left: -2.001953125em;
+    color: rgb(205, 91, 59);
+  }
+}
+.x-htmlandcss .path113 {
+  &:before {
+    content: $x-htmlandcss-path113;
+    margin-left: -2.001953125em;
+    color: rgb(225, 249, 249);
+  }
+}
+.x-htmlandcss .path114 {
+  &:before {
+    content: $x-htmlandcss-path114;
+    margin-left: -2.001953125em;
+    color: rgb(241, 217, 204);
+  }
+}
+.x-htmlandcss .path115 {
+  &:before {
+    content: $x-htmlandcss-path115;
+    margin-left: -2.001953125em;
+    color: rgb(114, 161, 195);
+  }
+}
+.x-htmlandcss .path116 {
+  &:before {
+    content: $x-htmlandcss-path116;
+    margin-left: -2.001953125em;
+    color: rgb(230, 109, 65);
+  }
+}
+.x-htmlandcss .path117 {
+  &:before {
+    content: $x-htmlandcss-path117;
+    margin-left: -2.001953125em;
+    color: rgb(234, 125, 86);
+  }
+}
+.x-htmlandcss .path118 {
+  &:before {
+    content: $x-htmlandcss-path118;
+    margin-left: -2.001953125em;
+    color: rgb(242, 218, 211);
+  }
+}
+.x-htmlandcss .path119 {
+  &:before {
+    content: $x-htmlandcss-path119;
+    margin-left: -2.001953125em;
+    color: rgb(226, 117, 71);
+  }
+}
+.x-htmlandcss .path120 {
+  &:before {
+    content: $x-htmlandcss-path120;
+    margin-left: -2.001953125em;
+    color: rgb(227, 240, 226);
+  }
+}
+.x-htmlandcss .path121 {
+  &:before {
+    content: $x-htmlandcss-path121;
+    margin-left: -2.001953125em;
+    color: rgb(139, 181, 209);
+  }
+}
+.x-htmlandcss .path122 {
+  &:before {
+    content: $x-htmlandcss-path122;
+    margin-left: -2.001953125em;
+    color: rgb(126, 171, 203);
+  }
+}
+.x-htmlandcss .path123 {
+  &:before {
+    content: $x-htmlandcss-path123;
+    margin-left: -2.001953125em;
+    color: rgb(37, 112, 168);
+  }
+}
+.x-htmlandcss .path124 {
+  &:before {
+    content: $x-htmlandcss-path124;
+    margin-left: -2.001953125em;
+    color: rgb(245, 223, 215);
+  }
+}
+.x-htmlandcss .path125 {
+  &:before {
+    content: $x-htmlandcss-path125;
+    margin-left: -2.001953125em;
+    color: rgb(226, 162, 150);
+  }
+}
+.x-htmlandcss .path126 {
+  &:before {
+    content: $x-htmlandcss-path126;
+    margin-left: -2.001953125em;
+    color: rgb(224, 111, 64);
+  }
+}
+.x-htmlandcss .path127 {
+  &:before {
+    content: $x-htmlandcss-path127;
+    margin-left: -2.001953125em;
+    color: rgb(247, 207, 188);
+  }
+}
+.x-htmlandcss .path128 {
+  &:before {
+    content: $x-htmlandcss-path128;
+    margin-left: -2.001953125em;
+    color: rgb(229, 162, 142);
+  }
+}
+.x-htmlandcss .path129 {
+  &:before {
+    content: $x-htmlandcss-path129;
+    margin-left: -2.001953125em;
+    color: rgb(224, 157, 142);
+  }
+}
+.x-htmlandcss .path130 {
+  &:before {
+    content: $x-htmlandcss-path130;
+    margin-left: -2.001953125em;
+    color: rgb(226, 164, 149);
+  }
+}
+.x-htmlandcss .path131 {
+  &:before {
+    content: $x-htmlandcss-path131;
+    margin-left: -2.001953125em;
+    color: rgb(85, 176, 207);
+  }
+}
+.x-htmlandcss .path132 {
+  &:before {
+    content: $x-htmlandcss-path132;
+    margin-left: -2.001953125em;
+    color: rgb(233, 157, 139);
+  }
+}
+.x-htmlandcss .path133 {
+  &:before {
+    content: $x-htmlandcss-path133;
+    margin-left: -2.001953125em;
+    color: rgb(156, 190, 215);
+  }
+}
+.x-htmlandcss .path134 {
+  &:before {
+    content: $x-htmlandcss-path134;
+    margin-left: -2.001953125em;
+    color: rgb(155, 187, 209);
+  }
+}
+.x-htmlandcss .path135 {
+  &:before {
+    content: $x-htmlandcss-path135;
+    margin-left: -2.001953125em;
+    color: rgb(211, 88, 56);
+  }
+}
+.x-htmlandcss .path136 {
+  &:before {
+    content: $x-htmlandcss-path136;
+    margin-left: -2.001953125em;
+    color: rgb(197, 224, 245);
+  }
+}
+.x-htmlandcss .path137 {
+  &:before {
+    content: $x-htmlandcss-path137;
+    margin-left: -2.001953125em;
+    color: rgb(250, 240, 216);
+  }
+}
+.x-htmlandcss .path138 {
+  &:before {
+    content: $x-htmlandcss-path138;
+    margin-left: -2.001953125em;
+    color: rgb(201, 224, 236);
+  }
+}
+.x-htmlandcss .path139 {
+  &:before {
+    content: $x-htmlandcss-path139;
+    margin-left: -2.001953125em;
+    color: rgb(248, 234, 215);
+  }
+}
+.x-htmlandcss .path140 {
+  &:before {
+    content: $x-htmlandcss-path140;
+    margin-left: -2.001953125em;
+    color: rgb(213, 99, 71);
+  }
+}
+.x-htmlandcss .path141 {
+  &:before {
+    content: $x-htmlandcss-path141;
+    margin-left: -2.001953125em;
+    color: rgb(212, 88, 41);
+  }
+}
+.x-htmlandcss .path142 {
+  &:before {
+    content: $x-htmlandcss-path142;
+    margin-left: -2.001953125em;
+    color: rgb(220, 94, 70);
+  }
+}
+.x-htmlandcss .path143 {
+  &:before {
+    content: $x-htmlandcss-path143;
+    margin-left: -2.001953125em;
+    color: rgb(96, 149, 190);
+  }
+}
+.x-htmlandcss .path144 {
+  &:before {
+    content: $x-htmlandcss-path144;
+    margin-left: -2.001953125em;
+    color: rgb(226, 250, 253);
+  }
+}
+.x-htmlandcss .path145 {
+  &:before {
+    content: $x-htmlandcss-path145;
+    margin-left: -2.001953125em;
+    color: rgb(220, 82, 27);
+  }
+}
+.x-htmlandcss .path146 {
+  &:before {
+    content: $x-htmlandcss-path146;
+    margin-left: -2.001953125em;
+    color: rgb(233, 75, 35);
+  }
+}
+.x-htmlandcss .path147 {
+  &:before {
+    content: $x-htmlandcss-path147;
+    margin-left: -2.001953125em;
+    color: rgb(116, 159, 191);
+  }
+}
+.x-htmlandcss .path148 {
+  &:before {
+    content: $x-htmlandcss-path148;
+    margin-left: -2.001953125em;
+    color: rgb(230, 170, 154);
+  }
+}
+.x-htmlandcss .path149 {
+  &:before {
+    content: $x-htmlandcss-path149;
+    margin-left: -2.001953125em;
+    color: rgb(249, 235, 209);
+  }
+}
+.x-htmlandcss .path150 {
+  &:before {
+    content: $x-htmlandcss-path150;
+    margin-left: -2.001953125em;
+    color: rgb(31, 110, 168);
+  }
+}
+.x-htmlandcss .path151 {
+  &:before {
+    content: $x-htmlandcss-path151;
+    margin-left: -2.001953125em;
+    color: rgb(100, 149, 184);
+  }
+}
+.x-htmlandcss .path152 {
+  &:before {
+    content: $x-htmlandcss-path152;
+    margin-left: -2.001953125em;
+    color: rgb(230, 183, 172);
+  }
+}
+.x-htmlandcss .path153 {
+  &:before {
+    content: $x-htmlandcss-path153;
+    margin-left: -2.001953125em;
+    color: rgb(169, 197, 218);
+  }
+}
+.x-htmlandcss .path154 {
+  &:before {
+    content: $x-htmlandcss-path154;
+    margin-left: -2.001953125em;
+    color: rgb(220, 163, 149);
+  }
+}
+.x-htmlandcss .path155 {
+  &:before {
+    content: $x-htmlandcss-path155;
+    margin-left: -2.001953125em;
+    color: rgb(81, 171, 202);
+  }
+}
+.x-htmlandcss .path156 {
+  &:before {
+    content: $x-htmlandcss-path156;
+    margin-left: -2.001953125em;
+    color: rgb(57, 122, 171);
+  }
+}
+.x-htmlandcss .path157 {
+  &:before {
+    content: $x-htmlandcss-path157;
+    margin-left: -2.001953125em;
+    color: rgb(32, 110, 166);
+  }
+}
+.x-htmlandcss .path158 {
+  &:before {
+    content: $x-htmlandcss-path158;
+    margin-left: -2.001953125em;
+    color: rgb(47, 114, 160);
+  }
+}
+.x-htmlandcss .path159 {
+  &:before {
+    content: $x-htmlandcss-path159;
+    margin-left: -2.001953125em;
+    color: rgb(77, 165, 210);
+  }
+}
+.x-htmlandcss .path160 {
+  &:before {
+    content: $x-htmlandcss-path160;
+    margin-left: -2.001953125em;
+    color: rgb(225, 236, 249);
+  }
+}
+.x-htmlandcss .path161 {
+  &:before {
+    content: $x-htmlandcss-path161;
+    margin-left: -2.001953125em;
+    color: rgb(210, 87, 52);
+  }
+}
+.x-htmlandcss .path162 {
+  &:before {
+    content: $x-htmlandcss-path162;
+    margin-left: -2.001953125em;
+    color: rgb(206, 232, 247);
+  }
+}
+.x-htmlandcss .path163 {
+  &:before {
+    content: $x-htmlandcss-path163;
+    margin-left: -2.001953125em;
+    color: rgb(227, 159, 134);
+  }
+}
+.x-htmlandcss .path164 {
+  &:before {
+    content: $x-htmlandcss-path164;
+    margin-left: -2.001953125em;
+    color: rgb(206, 107, 89);
+  }
+}
+.x-htmlandcss .path165 {
+  &:before {
+    content: $x-htmlandcss-path165;
+    margin-left: -2.001953125em;
+    color: rgb(86, 153, 202);
+  }
+}
+.x-htmlandcss .path166 {
+  &:before {
+    content: $x-htmlandcss-path166;
+    margin-left: -2.001953125em;
+    color: rgb(75, 173, 198);
+  }
+}
+.x-htmlandcss .path167 {
+  &:before {
+    content: $x-htmlandcss-path167;
+    margin-left: -2.001953125em;
+    color: rgb(242, 222, 194);
+  }
+}
+.x-htmlandcss .path168 {
+  &:before {
+    content: $x-htmlandcss-path168;
+    margin-left: -2.001953125em;
+    color: rgb(235, 72, 41);
+  }
+}
+.x-htmlandcss .path169 {
+  &:before {
+    content: $x-htmlandcss-path169;
+    margin-left: -2.001953125em;
+    color: rgb(105, 156, 192);
+  }
+}
+.x-htmlandcss .path170 {
+  &:before {
+    content: $x-htmlandcss-path170;
+    margin-left: -2.001953125em;
+    color: rgb(227, 137, 109);
+  }
+}
+.x-htmlandcss .path171 {
+  &:before {
+    content: $x-htmlandcss-path171;
+    margin-left: -2.001953125em;
+    color: rgb(238, 230, 214);
+  }
+}
+.x-htmlandcss .path172 {
+  &:before {
+    content: $x-htmlandcss-path172;
+    margin-left: -2.001953125em;
+    color: rgb(16, 117, 192);
+  }
+}
+.x-htmlandcss .path173 {
+  &:before {
+    content: $x-htmlandcss-path173;
+    margin-left: -2.001953125em;
+    color: rgb(240, 214, 195);
+  }
+}
+.x-htmlandcss .path174 {
+  &:before {
+    content: $x-htmlandcss-path174;
+    margin-left: -2.001953125em;
+    color: rgb(115, 158, 192);
+  }
+}
+.x-htmlandcss .path175 {
+  &:before {
+    content: $x-htmlandcss-path175;
+    margin-left: -2.001953125em;
+    color: rgb(231, 148, 138);
+  }
+}
+.x-htmlandcss .path176 {
+  &:before {
+    content: $x-htmlandcss-path176;
+    margin-left: -2.001953125em;
+    color: rgb(226, 141, 123);
+  }
+}
+.x-htmlandcss .path177 {
+  &:before {
+    content: $x-htmlandcss-path177;
+    margin-left: -2.001953125em;
+    color: rgb(51, 115, 165);
+  }
+}
+.x-htmlandcss .path178 {
+  &:before {
+    content: $x-htmlandcss-path178;
+    margin-left: -2.001953125em;
+    color: rgb(76, 166, 211);
+  }
+}
+.x-htmlandcss .path179 {
+  &:before {
+    content: $x-htmlandcss-path179;
+    margin-left: -2.001953125em;
+    color: rgb(56, 165, 229);
+  }
+}
+.x-htmlandcss .path180 {
+  &:before {
+    content: $x-htmlandcss-path180;
+    margin-left: -2.001953125em;
+    color: rgb(253, 247, 237);
+  }
+}
+.x-htmlandcss .path181 {
+  &:before {
+    content: $x-htmlandcss-path181;
+    margin-left: -2.001953125em;
+    color: rgb(243, 228, 243);
+  }
+}
+.x-htmlandcss .path182 {
+  &:before {
+    content: $x-htmlandcss-path182;
+    margin-left: -2.001953125em;
+    color: rgb(233, 72, 46);
+  }
+}
+.x-htmlandcss .path183 {
+  &:before {
+    content: $x-htmlandcss-path183;
+    margin-left: -2.001953125em;
+    color: rgb(145, 184, 212);
+  }
+}
+.x-htmlandcss .path184 {
+  &:before {
+    content: $x-htmlandcss-path184;
+    margin-left: -2.001953125em;
+    color: rgb(224, 152, 131);
+  }
+}
+.x-htmlandcss .path185 {
+  &:before {
+    content: $x-htmlandcss-path185;
+    margin-left: -2.001953125em;
+    color: rgb(193, 223, 239);
+  }
+}
+.x-htmlandcss .path186 {
+  &:before {
+    content: $x-htmlandcss-path186;
+    margin-left: -2.001953125em;
+    color: rgb(201, 96, 73);
+  }
+}
+.x-htmlandcss .path187 {
+  &:before {
+    content: $x-htmlandcss-path187;
+    margin-left: -2.001953125em;
+    color: rgb(253, 245, 225);
+  }
+}
+.x-htmlandcss .path188 {
+  &:before {
+    content: $x-htmlandcss-path188;
+    margin-left: -2.001953125em;
+    color: rgb(242, 232, 225);
+  }
+}
+.x-htmlandcss .path189 {
+  &:before {
+    content: $x-htmlandcss-path189;
+    margin-left: -2.001953125em;
+    color: rgb(207, 237, 253);
+  }
+}
+.x-htmlandcss .path190 {
+  &:before {
+    content: $x-htmlandcss-path190;
+    margin-left: -2.001953125em;
+    color: rgb(11, 115, 192);
+  }
+}
+.x-htmlandcss .path191 {
+  &:before {
+    content: $x-htmlandcss-path191;
+    margin-left: -2.001953125em;
+    color: rgb(252, 253, 254);
+  }
+}
+.x-htmlandcss .path192 {
+  &:before {
+    content: $x-htmlandcss-path192;
+    margin-left: -2.001953125em;
+    color: rgb(254, 254, 253);
+  }
+}
+.x-htmlandcss .path193 {
+  &:before {
+    content: $x-htmlandcss-path193;
+    margin-left: -2.001953125em;
+    color: rgb(255, 254, 254);
+  }
+}
+.x-htmlandcss .path194 {
+  &:before {
+    content: $x-htmlandcss-path194;
+    margin-left: -2.001953125em;
+    color: rgb(255, 254, 253);
+  }
+}
+.x-htmlandcss .path195 {
+  &:before {
+    content: $x-htmlandcss-path195;
+    margin-left: -2.001953125em;
+    color: rgb(255, 255, 254);
+  }
+}
+.x-customerservice .path1 {
+  &:before {
+    content: $x-customerservice-path1;
+    color: rgb(17, 49, 61);
+  }
+}
+.x-customerservice .path2 {
+  &:before {
+    content: $x-customerservice-path2;
+    margin-left: -0.974609375em;
+    color: rgb(246, 197, 159);
+  }
+}
+.x-customerservice .path3 {
+  &:before {
+    content: $x-customerservice-path3;
+    margin-left: -0.974609375em;
+    color: rgb(53, 118, 123);
+  }
+}
+.x-customerservice .path4 {
+  &:before {
+    content: $x-customerservice-path4;
+    margin-left: -0.974609375em;
+    color: rgb(253, 253, 253);
+  }
+}
+.x-customerservice .path5 {
+  &:before {
+    content: $x-customerservice-path5;
+    margin-left: -0.974609375em;
+    color: rgb(154, 160, 155);
+  }
+}
+.x-customerservice .path6 {
+  &:before {
+    content: $x-customerservice-path6;
+    margin-left: -0.974609375em;
+    color: rgb(97, 84, 68);
+  }
+}
+.x-customerservice .path7 {
+  &:before {
+    content: $x-customerservice-path7;
+    margin-left: -0.974609375em;
+    color: rgb(134, 169, 184);
+  }
+}
+.x-customerservice .path8 {
+  &:before {
+    content: $x-customerservice-path8;
+    margin-left: -0.974609375em;
+    color: rgb(253, 253, 253);
+  }
+}
+.x-customerservice .path9 {
+  &:before {
+    content: $x-customerservice-path9;
+    margin-left: -0.974609375em;
+    color: rgb(232, 79, 64);
+  }
+}
+.x-customerservice .path10 {
+  &:before {
+    content: $x-customerservice-path10;
+    margin-left: -0.974609375em;
+    color: rgb(245, 197, 160);
+  }
+}
+.x-customerservice .path11 {
+  &:before {
+    content: $x-customerservice-path11;
+    margin-left: -0.974609375em;
+    color: rgb(62, 70, 81);
+  }
+}
+.x-customerservice .path12 {
+  &:before {
+    content: $x-customerservice-path12;
+    margin-left: -0.974609375em;
+    color: rgb(129, 136, 128);
+  }
+}
+.x-customerservice .path13 {
+  &:before {
+    content: $x-customerservice-path13;
+    margin-left: -0.974609375em;
+    color: rgb(88, 92, 88);
+  }
+}
+.x-customerservice .path14 {
+  &:before {
+    content: $x-customerservice-path14;
+    margin-left: -0.974609375em;
+    color: rgb(191, 197, 192);
+  }
+}
+.x-customerservice .path15 {
+  &:before {
+    content: $x-customerservice-path15;
+    margin-left: -0.974609375em;
+    color: rgb(63, 121, 151);
+  }
+}
+.x-customerservice .path16 {
+  &:before {
+    content: $x-customerservice-path16;
+    margin-left: -0.974609375em;
+    color: rgb(238, 73, 73);
+  }
+}
+.x-customerservice .path17 {
+  &:before {
+    content: $x-customerservice-path17;
+    margin-left: -0.974609375em;
+    color: rgb(46, 82, 104);
+  }
+}
+.x-customerservice .path18 {
+  &:before {
+    content: $x-customerservice-path18;
+    margin-left: -0.974609375em;
+    color: rgb(63, 144, 152);
+  }
+}
+.x-customerservice .path19 {
+  &:before {
+    content: $x-customerservice-path19;
+    margin-left: -0.974609375em;
+    color: rgb(164, 214, 239);
+  }
+}
+.x-customerservice .path20 {
+  &:before {
+    content: $x-customerservice-path20;
+    margin-left: -0.974609375em;
+    color: rgb(48, 106, 115);
+  }
+}
+.x-customerservice .path21 {
+  &:before {
+    content: $x-customerservice-path21;
+    margin-left: -0.974609375em;
+    color: rgb(254, 252, 252);
+  }
+}
+.x-customerservice .path22 {
+  &:before {
+    content: $x-customerservice-path22;
+    margin-left: -0.974609375em;
+    color: rgb(46, 97, 104);
+  }
+}
+.x-customerservice .path23 {
+  &:before {
+    content: $x-customerservice-path23;
+    margin-left: -0.974609375em;
+    color: rgb(109, 116, 110);
+  }
+}
+.x-customerservice .path24 {
+  &:before {
+    content: $x-customerservice-path24;
+    margin-left: -0.974609375em;
+    color: rgb(166, 169, 168);
+  }
+}
+.x-customerservice .path25 {
+  &:before {
+    content: $x-customerservice-path25;
+    margin-left: -0.974609375em;
+    color: rgb(236, 238, 238);
+  }
+}
+.x-customerservice .path26 {
+  &:before {
+    content: $x-customerservice-path26;
+    margin-left: -0.974609375em;
+    color: rgb(235, 237, 237);
+  }
+}
+.x-customerservice .path27 {
+  &:before {
+    content: $x-customerservice-path27;
+    margin-left: -0.974609375em;
+    color: rgb(245, 197, 159);
+  }
+}
+.x-customerservice .path28 {
+  &:before {
+    content: $x-customerservice-path28;
+    margin-left: -0.974609375em;
+    color: rgb(181, 182, 182);
+  }
+}
+.x-customerservice .path29 {
+  &:before {
+    content: $x-customerservice-path29;
+    margin-left: -0.974609375em;
+    color: rgb(180, 181, 181);
+  }
+}
+.x-customerservice .path30 {
+  &:before {
+    content: $x-customerservice-path30;
+    margin-left: -0.974609375em;
+    color: rgb(180, 181, 181);
+  }
+}
+.x-customerservice .path31 {
+  &:before {
+    content: $x-customerservice-path31;
+    margin-left: -0.974609375em;
+    color: rgb(239, 73, 73);
+  }
+}
+.x-customerservice .path32 {
+  &:before {
+    content: $x-customerservice-path32;
+    margin-left: -0.974609375em;
+    color: rgb(128, 136, 128);
+  }
+}
+.x-customerservice .path33 {
+  &:before {
+    content: $x-customerservice-path33;
+    margin-left: -0.974609375em;
+    color: rgb(236, 236, 238);
+  }
+}
+.x-customerservice .path34 {
+  &:before {
+    content: $x-customerservice-path34;
+    margin-left: -0.974609375em;
+    color: rgb(182, 147, 124);
+  }
+}
+.x-customerservice .path35 {
+  &:before {
+    content: $x-customerservice-path35;
+    margin-left: -0.974609375em;
+    color: rgb(251, 251, 251);
+  }
+}
+.x-customerservice .path36 {
+  &:before {
+    content: $x-customerservice-path36;
+    margin-left: -0.974609375em;
+    color: rgb(18, 51, 66);
+  }
+}
+.x-customerservice .path37 {
+  &:before {
+    content: $x-customerservice-path37;
+    margin-left: -0.974609375em;
+    color: rgb(17, 50, 65);
+  }
+}
+.x-customerservice .path38 {
+  &:before {
+    content: $x-customerservice-path38;
+    margin-left: -0.974609375em;
+    color: rgb(239, 193, 157);
+  }
+}
+.x-customerservice .path39 {
+  &:before {
+    content: $x-customerservice-path39;
+    margin-left: -0.974609375em;
+    color: rgb(129, 168, 172);
+  }
+}
+.x-customerservice .path40 {
+  &:before {
+    content: $x-customerservice-path40;
+    margin-left: -0.974609375em;
+    color: rgb(183, 184, 184);
+  }
+}
+.x-customerservice .path41 {
+  &:before {
+    content: $x-customerservice-path41;
+    margin-left: -0.974609375em;
+    color: rgb(45, 95, 101);
+  }
+}
+.x-customerservice .path42 {
+  &:before {
+    content: $x-customerservice-path42;
+    margin-left: -0.974609375em;
+    color: rgb(183, 184, 184);
+  }
+}
+.x-customerservice .path43 {
+  &:before {
+    content: $x-customerservice-path43;
+    margin-left: -0.974609375em;
+    color: rgb(183, 184, 184);
+  }
+}
+.x-customerservice .path44 {
+  &:before {
+    content: $x-customerservice-path44;
+    margin-left: -0.974609375em;
+    color: rgb(183, 184, 184);
+  }
+}
+.x-customerservice .path45 {
+  &:before {
+    content: $x-customerservice-path45;
+    margin-left: -0.974609375em;
+    color: rgb(183, 184, 184);
+  }
+}
+.x-customerservice .path46 {
+  &:before {
+    content: $x-customerservice-path46;
+    margin-left: -0.974609375em;
+    color: rgb(48, 107, 116);
+  }
+}
+.x-customerservice .path47 {
+  &:before {
+    content: $x-customerservice-path47;
+    margin-left: -0.974609375em;
+    color: rgb(183, 184, 184);
+  }
+}
+.x-customerservice .path48 {
+  &:before {
+    content: $x-customerservice-path48;
+    margin-left: -0.974609375em;
+    color: rgb(50, 98, 104);
+  }
+}
+.x-customerservice .path49 {
+  &:before {
+    content: $x-customerservice-path49;
+    margin-left: -0.974609375em;
+    color: rgb(50, 83, 102);
+  }
+}
+.x-customerservice .path50 {
+  &:before {
+    content: $x-customerservice-path50;
+    margin-left: -0.974609375em;
+    color: rgb(45, 94, 100);
+  }
+}
+.x-customerservice .path51 {
+  &:before {
+    content: $x-customerservice-path51;
+    margin-left: -0.974609375em;
+    color: rgb(48, 107, 116);
+  }
+}
+.x-customerservice .path52 {
+  &:before {
+    content: $x-customerservice-path52;
+    margin-left: -0.974609375em;
+    color: rgb(45, 94, 100);
+  }
+}
+.x-customerservice .path53 {
+  &:before {
+    content: $x-customerservice-path53;
+    margin-left: -0.974609375em;
+    color: rgb(45, 94, 100);
+  }
+}
+.x-customerservice .path54 {
+  &:before {
+    content: $x-customerservice-path54;
+    margin-left: -0.974609375em;
+    color: rgb(45, 94, 100);
+  }
+}
+.x-customerservice .path55 {
+  &:before {
+    content: $x-customerservice-path55;
+    margin-left: -0.974609375em;
+    color: rgb(45, 94, 100);
+  }
+}
+.x-customerservice .path56 {
+  &:before {
+    content: $x-customerservice-path56;
+    margin-left: -0.974609375em;
+    color: rgb(48, 107, 116);
+  }
+}
+.x-customerservice .path57 {
+  &:before {
+    content: $x-customerservice-path57;
+    margin-left: -0.974609375em;
+    color: rgb(45, 94, 100);
+  }
+}
+.x-customerservice .path58 {
+  &:before {
+    content: $x-customerservice-path58;
+    margin-left: -0.974609375em;
+    color: rgb(48, 106, 115);
+  }
+}
+.x-customerservice .path59 {
+  &:before {
+    content: $x-customerservice-path59;
+    margin-left: -0.974609375em;
+    color: rgb(45, 94, 100);
+  }
+}
+.x-customerservice .path60 {
+  &:before {
+    content: $x-customerservice-path60;
+    margin-left: -0.974609375em;
+    color: rgb(45, 94, 100);
+  }
+}
+.x-customerservice .path61 {
+  &:before {
+    content: $x-customerservice-path61;
+    margin-left: -0.974609375em;
+    color: rgb(180, 181, 181);
+  }
+}
+.x-customerservice .path62 {
+  &:before {
+    content: $x-customerservice-path62;
+    margin-left: -0.974609375em;
+    color: rgb(178, 182, 184);
+  }
+}
+.x-customerservice .path63 {
+  &:before {
+    content: $x-customerservice-path63;
+    margin-left: -0.974609375em;
+    color: rgb(63, 70, 81);
+  }
+}
+.x-customerservice .path64 {
+  &:before {
+    content: $x-customerservice-path64;
+    margin-left: -0.974609375em;
+    color: rgb(63, 70, 81);
+  }
+}
+.x-customerservice .path65 {
+  &:before {
+    content: $x-customerservice-path65;
+    margin-left: -0.974609375em;
+    color: rgb(8, 164, 201);
+  }
+}
+.x-customerservice .path66 {
+  &:before {
+    content: $x-customerservice-path66;
+    margin-left: -0.974609375em;
+    color: rgb(63, 70, 81);
+  }
+}
+.x-customerservice .path67 {
+  &:before {
+    content: $x-customerservice-path67;
+    margin-left: -0.974609375em;
+    color: rgb(8, 164, 201);
+  }
+}
+.x-customerservice .path68 {
+  &:before {
+    content: $x-customerservice-path68;
+    margin-left: -0.974609375em;
+    color: rgb(8, 164, 201);
+  }
+}
+.x-customerservice .path69 {
+  &:before {
+    content: $x-customerservice-path69;
+    margin-left: -0.974609375em;
+    color: rgb(8, 164, 201);
+  }
+}
+.x-customerservice .path70 {
+  &:before {
+    content: $x-customerservice-path70;
+    margin-left: -0.974609375em;
+    color: rgb(8, 164, 201);
+  }
+}
+.x-customerservice .path71 {
+  &:before {
+    content: $x-customerservice-path71;
+    margin-left: -0.974609375em;
+    color: rgb(8, 164, 201);
+  }
+}
+.x-customerservice .path72 {
+  &:before {
+    content: $x-customerservice-path72;
+    margin-left: -0.974609375em;
+    color: rgb(8, 164, 201);
+  }
+}
+.x-customerservice .path73 {
+  &:before {
+    content: $x-customerservice-path73;
+    margin-left: -0.974609375em;
+    color: rgb(8, 164, 201);
+  }
+}
+.x-customerservice .path74 {
+  &:before {
+    content: $x-customerservice-path74;
+    margin-left: -0.974609375em;
+    color: rgb(8, 164, 201);
+  }
+}
+.x-customerservice .path75 {
+  &:before {
+    content: $x-customerservice-path75;
+    margin-left: -0.974609375em;
+    color: rgb(8, 164, 201);
+  }
+}
+.x-customerservice .path76 {
+  &:before {
+    content: $x-customerservice-path76;
+    margin-left: -0.974609375em;
+    color: rgb(8, 164, 201);
+  }
+}
+.x-customerservice .path77 {
+  &:before {
+    content: $x-customerservice-path77;
+    margin-left: -0.974609375em;
+    color: rgb(8, 164, 201);
+  }
+}
+.x-customerservice .path78 {
+  &:before {
+    content: $x-customerservice-path78;
+    margin-left: -0.974609375em;
+    color: rgb(8, 164, 201);
+  }
+}
+.x-customerservice .path79 {
+  &:before {
+    content: $x-customerservice-path79;
+    margin-left: -0.974609375em;
+    color: rgb(8, 164, 201);
+  }
+}
+.x-customerservice .path80 {
+  &:before {
+    content: $x-customerservice-path80;
+    margin-left: -0.974609375em;
+    color: rgb(8, 163, 200);
+  }
+}
+.x-customerservice .path81 {
+  &:before {
+    content: $x-customerservice-path81;
+    margin-left: -0.974609375em;
+    color: rgb(56, 95, 120);
+  }
+}
+.x-customerservice .path82 {
+  &:before {
+    content: $x-customerservice-path82;
+    margin-left: -0.974609375em;
+    color: rgb(48, 107, 116);
+  }
+}
+.x-customerservice .path83 {
+  &:before {
+    content: $x-customerservice-path83;
+    margin-left: -0.974609375em;
+    color: rgb(247, 249, 250);
+  }
+}
+.x-customerservice .path84 {
+  &:before {
+    content: $x-customerservice-path84;
+    margin-left: -0.974609375em;
+    color: rgb(244, 245, 245);
+  }
+}
+.x-customerservice .path85 {
+  &:before {
+    content: $x-customerservice-path85;
+    margin-left: -0.974609375em;
+    color: rgb(10, 162, 199);
+  }
+}
+.x-customerservice .path86 {
+  &:before {
+    content: $x-customerservice-path86;
+    margin-left: -0.974609375em;
+    color: rgb(45, 95, 101);
+  }
+}
+.x-customerservice .path87 {
+  &:before {
+    content: $x-customerservice-path87;
+    margin-left: -0.974609375em;
+    color: rgb(8, 163, 199);
+  }
+}
+.x-customerservice .path88 {
+  &:before {
+    content: $x-customerservice-path88;
+    margin-left: -0.974609375em;
+    color: rgb(8, 162, 199);
+  }
+}
+.x-customerservice .path89 {
+  &:before {
+    content: $x-customerservice-path89;
+    margin-left: -0.974609375em;
+    color: rgb(149, 198, 223);
+  }
+}
+.x-customerservice .path90 {
+  &:before {
+    content: $x-customerservice-path90;
+    margin-left: -0.974609375em;
+    color: rgb(157, 207, 232);
+  }
+}
+.x-customerservice .path91 {
+  &:before {
+    content: $x-customerservice-path91;
+    margin-left: -0.974609375em;
+    color: rgb(8, 163, 200);
+  }
+}
+.x-customerservice .path92 {
+  &:before {
+    content: $x-customerservice-path92;
+    margin-left: -0.974609375em;
+    color: rgb(8, 162, 199);
+  }
+}
+.x-customerservice .path93 {
+  &:before {
+    content: $x-customerservice-path93;
+    margin-left: -0.974609375em;
+    color: rgb(48, 107, 116);
+  }
+}
+.x-customerservice .path94 {
+  &:before {
+    content: $x-customerservice-path94;
+    margin-left: -0.974609375em;
+    color: rgb(10, 165, 201);
+  }
+}
+.x-customerservice .path95 {
+  &:before {
+    content: $x-customerservice-path95;
+    margin-left: -0.974609375em;
+    color: rgb(127, 166, 170);
+  }
+}
+.x-customerservice .path96 {
+  &:before {
+    content: $x-customerservice-path96;
+    margin-left: -0.974609375em;
+    color: rgb(166, 174, 179);
+  }
+}
+.x-customerservice .path97 {
+  &:before {
+    content: $x-customerservice-path97;
+    margin-left: -0.974609375em;
+    color: rgb(124, 164, 168);
+  }
+}
+.x-customerservice .path98 {
+  &:before {
+    content: $x-customerservice-path98;
+    margin-left: -0.974609375em;
+    color: rgb(165, 173, 177);
+  }
+}
+.x-customerservice .path99 {
+  &:before {
+    content: $x-customerservice-path99;
+    margin-left: -0.974609375em;
+    color: rgb(147, 196, 221);
+  }
+}
+.x-customerservice .path100 {
+  &:before {
+    content: $x-customerservice-path100;
+    margin-left: -0.974609375em;
+    color: rgb(46, 96, 102);
+  }
+}
+.x-customerservice .path101 {
+  &:before {
+    content: $x-customerservice-path101;
+    margin-left: -0.974609375em;
+    color: rgb(118, 158, 163);
+  }
+}
+.x-customerservice .path102 {
+  &:before {
+    content: $x-customerservice-path102;
+    margin-left: -0.974609375em;
+    color: rgb(118, 158, 163);
+  }
+}
+.x-customerservice .path103 {
+  &:before {
+    content: $x-customerservice-path103;
+    margin-left: -0.974609375em;
+    color: rgb(133, 172, 176);
+  }
+}
+.x-customerservice .path104 {
+  &:before {
+    content: $x-customerservice-path104;
+    margin-left: -0.974609375em;
+    color: rgb(136, 174, 178);
+  }
+}
+.x-customerservice .path105 {
+  &:before {
+    content: $x-customerservice-path105;
+    margin-left: -0.974609375em;
+    color: rgb(136, 174, 178);
+  }
+}
+.x-customerservice .path106 {
+  &:before {
+    content: $x-customerservice-path106;
+    margin-left: -0.974609375em;
+    color: rgb(120, 160, 164);
+  }
+}
+.x-customerservice .path107 {
+  &:before {
+    content: $x-customerservice-path107;
+    margin-left: -0.974609375em;
+    color: rgb(123, 163, 168);
+  }
+}
+.x-react {
+  &:before {
+    content: $x-react;
+    color: #00d8ff;
+  }
+}
+.x-python .path1 {
+  &:before {
+    content: $x-python-path1;
+    color: rgb(248, 198, 60);
+  }
+}
+.x-python .path2 {
+  &:before {
+    content: $x-python-path2;
+    margin-left: -1em;
+    color: rgb(54, 125, 239);
+  }
+}
+.x-nodejs .path1 {
+  &:before {
+    content: $x-nodejs-path1;
+    color: rgb(50, 50, 50);
+  }
+}
+.x-nodejs .path2 {
+  &:before {
+    content: $x-nodejs-path2;
+    margin-left: -1em;
+    color: rgb(85, 162, 68);
+  }
+}
+.x-nodejs .path3 {
+  &:before {
+    content: $x-nodejs-path3;
+    margin-left: -1em;
+    color: rgb(50, 50, 50);
+  }
+}
+.x-nodejs .path4 {
+  &:before {
+    content: $x-nodejs-path4;
+    margin-left: -1em;
+    color: rgb(50, 50, 50);
+  }
+}
+.x-nodejs .path5 {
+  &:before {
+    content: $x-nodejs-path5;
+    margin-left: -1em;
+    color: rgb(104, 159, 98);
+  }
+}
+.x-nodejs .path6 {
+  &:before {
+    content: $x-nodejs-path6;
+    margin-left: -1em;
+    color: rgb(64, 135, 62);
+  }
+}
+.x-nodejs .path7 {
+  &:before {
+    content: $x-nodejs-path7;
+    margin-left: -1em;
+    color: rgb(104, 159, 98);
+  }
+}
+.x-nodejs .path8 {
+  &:before {
+    content: $x-nodejs-path8;
+    margin-left: -1em;
+    color: rgb(64, 151, 54);
+  }
+}
+.x-nodejs .path9 {
+  &:before {
+    content: $x-nodejs-path9;
+    margin-left: -1em;
+    color: rgb(104, 159, 98);
+  }
+}
+.x-nodejs .path10 {
+  &:before {
+    content: $x-nodejs-path10;
+    margin-left: -1em;
+    color: rgb(104, 158, 98);
+  }
+}
+.x-nodejs .path11 {
+  &:before {
+    content: $x-nodejs-path11;
+    margin-left: -1em;
+    color: rgb(104, 159, 98);
+  }
+}
+.x-microsoftoffice .path1 {
+  &:before {
+    content: $x-microsoftoffice-path1;
+    color: rgb(26, 107, 164);
+  }
+}
+.x-microsoftoffice .path2 {
+  &:before {
+    content: $x-microsoftoffice-path2;
+    margin-left: -1em;
+    color: rgb(223, 106, 32);
+  }
+}
+.x-microsoftoffice .path3 {
+  &:before {
+    content: $x-microsoftoffice-path3;
+    margin-left: -1em;
+    color: rgb(39, 77, 187);
+  }
+}
+.x-microsoftoffice .path4 {
+  &:before {
+    content: $x-microsoftoffice-path4;
+    margin-left: -1em;
+    color: rgb(39, 111, 77);
+  }
+}
+.x-microsoftoffice .path5 {
+  &:before {
+    content: $x-microsoftoffice-path5;
+    margin-left: -1em;
+    color: rgb(254, 253, 252);
+  }
+}
+.x-microsoftoffice .path6 {
+  &:before {
+    content: $x-microsoftoffice-path6;
+    margin-left: -1em;
+    color: rgb(252, 252, 254);
+  }
+}
+.x-microsoftoffice .path7 {
+  &:before {
+    content: $x-microsoftoffice-path7;
+    margin-left: -1em;
+    color: rgb(252, 253, 254);
+  }
+}
+.x-microsoftoffice .path8 {
+  &:before {
+    content: $x-microsoftoffice-path8;
+    margin-left: -1em;
+    color: rgb(240, 61, 2);
+  }
+}
+.x-microsoftoffice .path9 {
+  &:before {
+    content: $x-microsoftoffice-path9;
+    margin-left: -1em;
+    color: rgb(252, 253, 253);
+  }
+}
+.x-microsoftoffice .path10 {
+  &:before {
+    content: $x-microsoftoffice-path10;
+    margin-left: -1em;
+    color: rgb(245, 248, 247);
+  }
+}
+.x-microsoftoffice .path11 {
+  &:before {
+    content: $x-microsoftoffice-path11;
+    margin-left: -1em;
+    color: rgb(254, 253, 252);
+  }
+}
+.x-microsoftoffice .path12 {
+  &:before {
+    content: $x-microsoftoffice-path12;
+    margin-left: -1em;
+    color: rgb(233, 59, 15);
+  }
+}
+.x-microsoftoffice .path13 {
+  &:before {
+    content: $x-microsoftoffice-path13;
+    margin-left: -1em;
+    color: rgb(232, 61, 16);
+  }
+}
+.x-microsoftoffice .path14 {
+  &:before {
+    content: $x-microsoftoffice-path14;
+    margin-left: -1em;
+    color: rgb(233, 57, 12);
+  }
+}
+.x-microsoftoffice .path15 {
+  &:before {
+    content: $x-microsoftoffice-path15;
+    margin-left: -1em;
+    color: rgb(250, 252, 253);
+  }
+}
+.x-microsoftoffice .path16 {
+  &:before {
+    content: $x-microsoftoffice-path16;
+    margin-left: -1em;
+    color: rgb(238, 241, 249);
+  }
+}
+.x-microsoftoffice .path17 {
+  &:before {
+    content: $x-microsoftoffice-path17;
+    margin-left: -1em;
+    color: rgb(232, 65, 22);
+  }
+}
+.x-microsoftoffice .path18 {
+  &:before {
+    content: $x-microsoftoffice-path18;
+    margin-left: -1em;
+    color: rgb(250, 251, 252);
+  }
+}
+.x-microsoftoffice .path19 {
+  &:before {
+    content: $x-microsoftoffice-path19;
+    margin-left: -1em;
+    color: rgb(239, 184, 148);
+  }
+}
+.x-microsoftoffice .path20 {
+  &:before {
+    content: $x-microsoftoffice-path20;
+    margin-left: -1em;
+    color: rgb(250, 251, 252);
+  }
+}
+.x-microsoftoffice .path21 {
+  &:before {
+    content: $x-microsoftoffice-path21;
+    margin-left: -1em;
+    color: rgb(47, 84, 188);
+  }
+}
+.x-microsoftoffice .path22 {
+  &:before {
+    content: $x-microsoftoffice-path22;
+    margin-left: -1em;
+    color: rgb(232, 75, 34);
+  }
+}
+.x-microsoftoffice .path23 {
+  &:before {
+    content: $x-microsoftoffice-path23;
+    margin-left: -1em;
+    color: rgb(224, 111, 39);
+  }
+}
+.x-microsoftoffice .path24 {
+  &:before {
+    content: $x-microsoftoffice-path24;
+    margin-left: -1em;
+    color: rgb(48, 116, 84);
+  }
+}
+.x-microsoftoffice .path25 {
+  &:before {
+    content: $x-microsoftoffice-path25;
+    margin-left: -1em;
+    color: rgb(34, 111, 166);
+  }
+}
+.x-microsoftoffice .path26 {
+  &:before {
+    content: $x-microsoftoffice-path26;
+    margin-left: -1em;
+    color: rgb(223, 108, 34);
+  }
+}
+.x-microsoftoffice .path27 {
+  &:before {
+    content: $x-microsoftoffice-path27;
+    margin-left: -1em;
+    color: rgb(246, 247, 252);
+  }
+}
+.x-microsoftoffice .path28 {
+  &:before {
+    content: $x-microsoftoffice-path28;
+    margin-left: -1em;
+    color: rgb(36, 113, 168);
+  }
+}
+.x-microsoftoffice .path29 {
+  &:before {
+    content: $x-microsoftoffice-path29;
+    margin-left: -1em;
+    color: rgb(40, 112, 78);
+  }
+}
+.x-microsoftoffice .path30 {
+  &:before {
+    content: $x-microsoftoffice-path30;
+    margin-left: -1em;
+    color: rgb(41, 112, 79);
+  }
+}
+.x-microsoftoffice .path31 {
+  &:before {
+    content: $x-microsoftoffice-path31;
+    margin-left: -1em;
+    color: rgb(41, 112, 79);
+  }
+}
+.x-microsoftoffice .path32 {
+  &:before {
+    content: $x-microsoftoffice-path32;
+    margin-left: -1em;
+    color: rgb(40, 111, 77);
+  }
+}
+.x-microsoftoffice .path33 {
+  &:before {
+    content: $x-microsoftoffice-path33;
+    margin-left: -1em;
+    color: rgb(50, 118, 86);
+  }
+}
+.x-microsoftoffice .path34 {
+  &:before {
+    content: $x-microsoftoffice-path34;
+    margin-left: -1em;
+    color: rgb(33, 110, 166);
+  }
+}
+.x-microsoftoffice .path35 {
+  &:before {
+    content: $x-microsoftoffice-path35;
+    margin-left: -1em;
+    color: rgb(223, 105, 30);
+  }
+}
+.x-microsoftoffice .path36 {
+  &:before {
+    content: $x-microsoftoffice-path36;
+    margin-left: -1em;
+    color: rgb(223, 108, 35);
+  }
+}
+.x-microsoftoffice .path37 {
+  &:before {
+    content: $x-microsoftoffice-path37;
+    margin-left: -1em;
+    color: rgb(223, 105, 29);
+  }
+}
+.x-microsoftoffice .path38 {
+  &:before {
+    content: $x-microsoftoffice-path38;
+    margin-left: -1em;
+    color: rgb(222, 102, 26);
+  }
+}
+.x-microsoftoffice .path39 {
+  &:before {
+    content: $x-microsoftoffice-path39;
+    margin-left: -1em;
+    color: rgb(222, 102, 26);
+  }
+}
+.x-microsoftoffice .path40 {
+  &:before {
+    content: $x-microsoftoffice-path40;
+    margin-left: -1em;
+    color: rgb(251, 240, 234);
+  }
+}
+.x-microsoftoffice .path41 {
+  &:before {
+    content: $x-microsoftoffice-path41;
+    margin-left: -1em;
+    color: rgb(218, 135, 100);
+  }
+}
+.x-microsoftoffice .path42 {
+  &:before {
+    content: $x-microsoftoffice-path42;
+    margin-left: -1em;
+    color: rgb(214, 113, 68);
+  }
+}
+.x-microsoftoffice .path43 {
+  &:before {
+    content: $x-microsoftoffice-path43;
+    margin-left: -1em;
+    color: rgb(47, 120, 172);
+  }
+}
+.x-microsoftoffice .path44 {
+  &:before {
+    content: $x-microsoftoffice-path44;
+    margin-left: -1em;
+    color: rgb(59, 93, 192);
+  }
+}
+.x-microsoftoffice .path45 {
+  &:before {
+    content: $x-microsoftoffice-path45;
+    margin-left: -1em;
+    color: rgb(216, 142, 109);
+  }
+}
+.x-microsoftoffice .path46 {
+  &:before {
+    content: $x-microsoftoffice-path46;
+    margin-left: -1em;
+    color: rgb(219, 140, 106);
+  }
+}
+.x-microsoftoffice .path47 {
+  &:before {
+    content: $x-microsoftoffice-path47;
+    margin-left: -1em;
+    color: rgb(29, 108, 165);
+  }
+}
+.x-microsoftoffice .path48 {
+  &:before {
+    content: $x-microsoftoffice-path48;
+    margin-left: -1em;
+    color: rgb(225, 230, 245);
+  }
+}
+.x-microsoftoffice .path49 {
+  &:before {
+    content: $x-microsoftoffice-path49;
+    margin-left: -1em;
+    color: rgb(39, 77, 186);
+  }
+}
+.x-microsoftoffice .path50 {
+  &:before {
+    content: $x-microsoftoffice-path50;
+    margin-left: -1em;
+    color: rgb(42, 115, 169);
+  }
+}
+.x-microsoftoffice .path51 {
+  &:before {
+    content: $x-microsoftoffice-path51;
+    margin-left: -1em;
+    color: rgb(40, 114, 168);
+  }
+}
+.x-microsoftoffice .path52 {
+  &:before {
+    content: $x-microsoftoffice-path52;
+    margin-left: -1em;
+    color: rgb(61, 127, 177);
+  }
+}
+.x-microsoftoffice .path53 {
+  &:before {
+    content: $x-microsoftoffice-path53;
+    margin-left: -1em;
+    color: rgb(63, 128, 177);
+  }
+}
+.x-microsoftoffice .path54 {
+  &:before {
+    content: $x-microsoftoffice-path54;
+    margin-left: -1em;
+    color: rgb(227, 217, 212);
+  }
+}
+.x-microsoftoffice .path55 {
+  &:before {
+    content: $x-microsoftoffice-path55;
+    margin-left: -1em;
+    color: rgb(72, 134, 180);
+  }
+}
+.x-microsoftoffice .path56 {
+  &:before {
+    content: $x-microsoftoffice-path56;
+    margin-left: -1em;
+    color: rgb(218, 148, 117);
+  }
+}
+.x-microsoftoffice .path57 {
+  &:before {
+    content: $x-microsoftoffice-path57;
+    margin-left: -1em;
+    color: rgb(58, 128, 177);
+  }
+}
+.x-microsoftoffice .path58 {
+  &:before {
+    content: $x-microsoftoffice-path58;
+    margin-left: -1em;
+    color: rgb(60, 128, 177);
+  }
+}
+.x-microsoftoffice .path59 {
+  &:before {
+    content: $x-microsoftoffice-path59;
+    margin-left: -1em;
+    color: rgb(252, 246, 242);
+  }
+}
+.x-microsoftoffice .path60 {
+  &:before {
+    content: $x-microsoftoffice-path60;
+    margin-left: -1em;
+    color: rgb(215, 108, 65);
+  }
+}
+.x-microsoftoffice .path61 {
+  &:before {
+    content: $x-microsoftoffice-path61;
+    margin-left: -1em;
+    color: rgb(41, 116, 170);
+  }
+}
+.x-microsoftoffice .path62 {
+  &:before {
+    content: $x-microsoftoffice-path62;
+    margin-left: -1em;
+    color: rgb(107, 133, 208);
+  }
+}
+.x-microsoftoffice .path63 {
+  &:before {
+    content: $x-microsoftoffice-path63;
+    margin-left: -1em;
+    color: rgb(86, 115, 200);
+  }
+}
+.x-microsoftoffice .path64 {
+  &:before {
+    content: $x-microsoftoffice-path64;
+    margin-left: -1em;
+    color: rgb(230, 230, 229);
+  }
+}
+.x-microsoftoffice .path65 {
+  &:before {
+    content: $x-microsoftoffice-path65;
+    margin-left: -1em;
+    color: rgb(38, 110, 76);
+  }
+}
+.x-microsoftoffice .path66 {
+  &:before {
+    content: $x-microsoftoffice-path66;
+    margin-left: -1em;
+    color: rgb(77, 136, 108);
+  }
+}
+.x-microsoftoffice .path67 {
+  &:before {
+    content: $x-microsoftoffice-path67;
+    margin-left: -1em;
+    color: rgb(224, 204, 195);
+  }
+}
+.x-microsoftoffice .path68 {
+  &:before {
+    content: $x-microsoftoffice-path68;
+    margin-left: -1em;
+    color: rgb(26, 106, 164);
+  }
+}
+.x-microsoftoffice .path69 {
+  &:before {
+    content: $x-microsoftoffice-path69;
+    margin-left: -1em;
+    color: rgb(17, 101, 161);
+  }
+}
+.x-microsoftoffice .path70 {
+  &:before {
+    content: $x-microsoftoffice-path70;
+    margin-left: -1em;
+    color: rgb(16, 100, 160);
+  }
+}
+.x-microsoftoffice .path71 {
+  &:before {
+    content: $x-microsoftoffice-path71;
+    margin-left: -1em;
+    color: rgb(214, 107, 63);
+  }
+}
+.x-microsoftoffice .path72 {
+  &:before {
+    content: $x-microsoftoffice-path72;
+    margin-left: -1em;
+    color: rgb(47, 119, 172);
+  }
+}
+.x-microsoftoffice .path73 {
+  &:before {
+    content: $x-microsoftoffice-path73;
+    margin-left: -1em;
+    color: rgb(28, 68, 183);
+  }
+}
+.x-microsoftoffice .path74 {
+  &:before {
+    content: $x-microsoftoffice-path74;
+    margin-left: -1em;
+    color: rgb(69, 130, 101);
+  }
+}
+.x-microsoftoffice .path75 {
+  &:before {
+    content: $x-microsoftoffice-path75;
+    margin-left: -1em;
+    color: rgb(56, 91, 192);
+  }
+}
+.x-microsoftoffice .path76 {
+  &:before {
+    content: $x-microsoftoffice-path76;
+    margin-left: -1em;
+    color: rgb(54, 90, 191);
+  }
+}
+.x-microsoftoffice .path77 {
+  &:before {
+    content: $x-microsoftoffice-path77;
+    margin-left: -1em;
+    color: rgb(55, 91, 191);
+  }
+}
+.x-microsoftoffice .path78 {
+  &:before {
+    content: $x-microsoftoffice-path78;
+    margin-left: -1em;
+    color: rgb(24, 105, 163);
+  }
+}
+.x-microsoftoffice .path79 {
+  &:before {
+    content: $x-microsoftoffice-path79;
+    margin-left: -1em;
+    color: rgb(36, 113, 168);
+  }
+}
+.x-microsoftoffice .path80 {
+  &:before {
+    content: $x-microsoftoffice-path80;
+    margin-left: -1em;
+    color: rgb(19, 102, 161);
+  }
+}
+.x-microsoftoffice .path81 {
+  &:before {
+    content: $x-microsoftoffice-path81;
+    margin-left: -1em;
+    color: rgb(57, 126, 176);
+  }
+}
+.x-microsoftoffice .path82 {
+  &:before {
+    content: $x-microsoftoffice-path82;
+    margin-left: -1em;
+    color: rgb(47, 120, 172);
+  }
+}
+.x-microsoftoffice .path83 {
+  &:before {
+    content: $x-microsoftoffice-path83;
+    margin-left: -1em;
+    color: rgb(18, 101, 161);
+  }
+}
+.x-microsoftoffice .path84 {
+  &:before {
+    content: $x-microsoftoffice-path84;
+    margin-left: -1em;
+    color: rgb(229, 233, 245);
+  }
+}
+.x-microsoftoffice .path85 {
+  &:before {
+    content: $x-microsoftoffice-path85;
+    margin-left: -1em;
+    color: rgb(29, 69, 183);
+  }
+}
+.x-microsoftoffice .path86 {
+  &:before {
+    content: $x-microsoftoffice-path86;
+    margin-left: -1em;
+    color: rgb(46, 118, 171);
+  }
+}
+.x-microsoftoffice .path87 {
+  &:before {
+    content: $x-microsoftoffice-path87;
+    margin-left: -1em;
+    color: rgb(43, 117, 171);
+  }
+}
+.x-microsoftoffice .path88 {
+  &:before {
+    content: $x-microsoftoffice-path88;
+    margin-left: -1em;
+    color: rgb(93, 122, 203);
+  }
+}
+.x-microsoftoffice .path89 {
+  &:before {
+    content: $x-microsoftoffice-path89;
+    margin-left: -1em;
+    color: rgb(253, 253, 254);
+  }
+}
+.x-microsoftoffice .path90 {
+  &:before {
+    content: $x-microsoftoffice-path90;
+    margin-left: -1em;
+    color: rgb(227, 218, 214);
+  }
+}
+.x-microsoftoffice .path91 {
+  &:before {
+    content: $x-microsoftoffice-path91;
+    margin-left: -1em;
+    color: rgb(230, 230, 230);
+  }
+}
+.x-microsoftoffice .path92 {
+  &:before {
+    content: $x-microsoftoffice-path92;
+    margin-left: -1em;
+    color: rgb(230, 230, 230);
+  }
+}
+.x-microsoftoffice .path93 {
+  &:before {
+    content: $x-microsoftoffice-path93;
+    margin-left: -1em;
+    color: rgb(230, 230, 230);
+  }
+}
+.x-microsoftoffice .path94 {
+  &:before {
+    content: $x-microsoftoffice-path94;
+    margin-left: -1em;
+    color: rgb(230, 230, 230);
+  }
+}
+.x-microsoftoffice .path95 {
+  &:before {
+    content: $x-microsoftoffice-path95;
+    margin-left: -1em;
+    color: rgb(230, 230, 230);
+  }
+}
+.x-microsoftoffice .path96 {
+  &:before {
+    content: $x-microsoftoffice-path96;
+    margin-left: -1em;
+    color: rgb(230, 230, 230);
+  }
+}
+.x-timemanagement .path1 {
+  &:before {
+    content: $x-timemanagement-path1;
+    color: rgb(44, 58, 80);
+  }
+}
+.x-timemanagement .path2 {
+  &:before {
+    content: $x-timemanagement-path2;
+    margin-left: -0.9658203125em;
+    color: rgb(254, 254, 254);
+  }
+}
+.x-timemanagement .path3 {
+  &:before {
+    content: $x-timemanagement-path3;
+    margin-left: -0.9658203125em;
+    color: rgb(197, 215, 221);
+  }
+}
+.x-timemanagement .path4 {
+  &:before {
+    content: $x-timemanagement-path4;
+    margin-left: -0.9658203125em;
+    color: rgb(236, 230, 214);
+  }
+}
+.x-timemanagement .path5 {
+  &:before {
+    content: $x-timemanagement-path5;
+    margin-left: -0.9658203125em;
+    color: rgb(65, 95, 121);
+  }
+}
+.x-timemanagement .path6 {
+  &:before {
+    content: $x-timemanagement-path6;
+    margin-left: -0.9658203125em;
+    color: rgb(225, 161, 56);
+  }
+}
+.x-timemanagement .path7 {
+  &:before {
+    content: $x-timemanagement-path7;
+    margin-left: -0.9658203125em;
+    color: rgb(236, 127, 61);
+  }
+}
+.x-timemanagement .path8 {
+  &:before {
+    content: $x-timemanagement-path8;
+    margin-left: -0.9658203125em;
+    color: rgb(217, 223, 225);
+  }
+}
+.x-timemanagement .path9 {
+  &:before {
+    content: $x-timemanagement-path9;
+    margin-left: -0.9658203125em;
+    color: rgb(3, 162, 159);
+  }
+}
+.x-timemanagement .path10 {
+  &:before {
+    content: $x-timemanagement-path10;
+    margin-left: -0.9658203125em;
+    color: rgb(254, 208, 15);
+  }
+}
+.x-timemanagement .path11 {
+  &:before {
+    content: $x-timemanagement-path11;
+    margin-left: -0.9658203125em;
+    color: rgb(64, 94, 120);
+  }
+}
+.x-timemanagement .path12 {
+  &:before {
+    content: $x-timemanagement-path12;
+    margin-left: -0.9658203125em;
+    color: rgb(218, 217, 216);
+  }
+}
+.x-timemanagement .path13 {
+  &:before {
+    content: $x-timemanagement-path13;
+    margin-left: -0.9658203125em;
+    color: rgb(245, 243, 240);
+  }
+}
+.x-timemanagement .path14 {
+  &:before {
+    content: $x-timemanagement-path14;
+    margin-left: -0.9658203125em;
+    color: rgb(24, 155, 184);
+  }
+}
+.x-timemanagement .path15 {
+  &:before {
+    content: $x-timemanagement-path15;
+    margin-left: -0.9658203125em;
+    color: rgb(82, 81, 81);
+  }
+}
+.x-timemanagement .path16 {
+  &:before {
+    content: $x-timemanagement-path16;
+    margin-left: -0.9658203125em;
+    color: rgb(219, 218, 216);
+  }
+}
+.x-timemanagement .path17 {
+  &:before {
+    content: $x-timemanagement-path17;
+    margin-left: -0.9658203125em;
+    color: rgb(250, 252, 252);
+  }
+}
+.x-timemanagement .path18 {
+  &:before {
+    content: $x-timemanagement-path18;
+    margin-left: -0.9658203125em;
+    color: rgb(238, 84, 36);
+  }
+}
+.x-timemanagement .path19 {
+  &:before {
+    content: $x-timemanagement-path19;
+    margin-left: -0.9658203125em;
+    color: rgb(235, 245, 245);
+  }
+}
+.x-timemanagement .path20 {
+  &:before {
+    content: $x-timemanagement-path20;
+    margin-left: -0.9658203125em;
+    color: rgb(82, 82, 82);
+  }
+}
+.x-timemanagement .path21 {
+  &:before {
+    content: $x-timemanagement-path21;
+    margin-left: -0.9658203125em;
+    color: rgb(254, 254, 248);
+  }
+}
+.x-timemanagement .path22 {
+  &:before {
+    content: $x-timemanagement-path22;
+    margin-left: -0.9658203125em;
+    color: rgb(254, 253, 250);
+  }
+}
+.x-timemanagement .path23 {
+  &:before {
+    content: $x-timemanagement-path23;
+    margin-left: -0.9658203125em;
+    color: rgb(180, 224, 228);
+  }
+}
+.x-timemanagement .path24 {
+  &:before {
+    content: $x-timemanagement-path24;
+    margin-left: -0.9658203125em;
+    color: rgb(199, 230, 231);
+  }
+}
+.x-timemanagement .path25 {
+  &:before {
+    content: $x-timemanagement-path25;
+    margin-left: -0.9658203125em;
+    color: rgb(236, 127, 61);
+  }
+}
+.x-timemanagement .path26 {
+  &:before {
+    content: $x-timemanagement-path26;
+    margin-left: -0.9658203125em;
+    color: rgb(35, 73, 104);
+  }
+}
+.x-timemanagement .path27 {
+  &:before {
+    content: $x-timemanagement-path27;
+    margin-left: -0.9658203125em;
+    color: rgb(179, 223, 227);
+  }
+}
+.x-timemanagement .path28 {
+  &:before {
+    content: $x-timemanagement-path28;
+    margin-left: -0.9658203125em;
+    color: rgb(253, 253, 253);
+  }
+}
+.x-timemanagement .path29 {
+  &:before {
+    content: $x-timemanagement-path29;
+    margin-left: -0.9658203125em;
+    color: rgb(191, 36, 37);
+  }
+}
+.x-timemanagement .path30 {
+  &:before {
+    content: $x-timemanagement-path30;
+    margin-left: -0.9658203125em;
+    color: rgb(254, 208, 14);
+  }
+}
+.x-timemanagement .path31 {
+  &:before {
+    content: $x-timemanagement-path31;
+    margin-left: -0.9658203125em;
+    color: rgb(180, 224, 228);
+  }
+}
+.x-timemanagement .path32 {
+  &:before {
+    content: $x-timemanagement-path32;
+    margin-left: -0.9658203125em;
+    color: rgb(36, 61, 86);
+  }
+}
+.x-timemanagement .path33 {
+  &:before {
+    content: $x-timemanagement-path33;
+    margin-left: -0.9658203125em;
+    color: rgb(180, 224, 228);
+  }
+}
+.x-timemanagement .path34 {
+  &:before {
+    content: $x-timemanagement-path34;
+    margin-left: -0.9658203125em;
+    color: rgb(42, 56, 79);
+  }
+}
+.x-timemanagement .path35 {
+  &:before {
+    content: $x-timemanagement-path35;
+    margin-left: -0.9658203125em;
+    color: rgb(180, 224, 228);
+  }
+}
+.x-timemanagement .path36 {
+  &:before {
+    content: $x-timemanagement-path36;
+    margin-left: -0.9658203125em;
+    color: rgb(20, 78, 104);
+  }
+}
+.x-timemanagement .path37 {
+  &:before {
+    content: $x-timemanagement-path37;
+    margin-left: -0.9658203125em;
+    color: rgb(180, 209, 210);
+  }
+}
+.x-timemanagement .path38 {
+  &:before {
+    content: $x-timemanagement-path38;
+    margin-left: -0.9658203125em;
+    color: rgb(252, 249, 249);
+  }
+}
+.x-timemanagement .path39 {
+  &:before {
+    content: $x-timemanagement-path39;
+    margin-left: -0.9658203125em;
+    color: rgb(179, 224, 228);
+  }
+}
+.x-timemanagement .path40 {
+  &:before {
+    content: $x-timemanagement-path40;
+    margin-left: -0.9658203125em;
+    color: rgb(13, 50, 68);
+  }
+}
+.x-timemanagement .path41 {
+  &:before {
+    content: $x-timemanagement-path41;
+    margin-left: -0.9658203125em;
+    color: rgb(35, 53, 73);
+  }
+}
+.x-timemanagement .path42 {
+  &:before {
+    content: $x-timemanagement-path42;
+    margin-left: -0.9658203125em;
+    color: rgb(237, 231, 215);
+  }
+}
+.x-timemanagement .path43 {
+  &:before {
+    content: $x-timemanagement-path43;
+    margin-left: -0.9658203125em;
+    color: rgb(230, 235, 235);
+  }
+}
+.x-timemanagement .path44 {
+  &:before {
+    content: $x-timemanagement-path44;
+    margin-left: -0.9658203125em;
+    color: rgb(180, 224, 228);
+  }
+}
+.x-timemanagement .path45 {
+  &:before {
+    content: $x-timemanagement-path45;
+    margin-left: -0.9658203125em;
+    color: rgb(179, 223, 227);
+  }
+}
+.x-timemanagement .path46 {
+  &:before {
+    content: $x-timemanagement-path46;
+    margin-left: -0.9658203125em;
+    color: rgb(179, 224, 228);
+  }
+}
+.x-timemanagement .path47 {
+  &:before {
+    content: $x-timemanagement-path47;
+    margin-left: -0.9658203125em;
+    color: rgb(219, 212, 188);
+  }
+}
+.x-timemanagement .path48 {
+  &:before {
+    content: $x-timemanagement-path48;
+    margin-left: -0.9658203125em;
+    color: rgb(206, 150, 44);
+  }
+}
+.x-timemanagement .path49 {
+  &:before {
+    content: $x-timemanagement-path49;
+    margin-left: -0.9658203125em;
+    color: rgb(179, 223, 227);
+  }
+}
+.x-timemanagement .path50 {
+  &:before {
+    content: $x-timemanagement-path50;
+    margin-left: -0.9658203125em;
+    color: rgb(12, 26, 42);
+  }
+}
+.x-timemanagement .path51 {
+  &:before {
+    content: $x-timemanagement-path51;
+    margin-left: -0.9658203125em;
+    color: rgb(45, 59, 81);
+  }
+}
+.x-timemanagement .path52 {
+  &:before {
+    content: $x-timemanagement-path52;
+    margin-left: -0.9658203125em;
+    color: rgb(44, 58, 80);
+  }
+}
+.x-timemanagement .path53 {
+  &:before {
+    content: $x-timemanagement-path53;
+    margin-left: -0.9658203125em;
+    color: rgb(44, 58, 80);
+  }
+}
+.x-timemanagement .path54 {
+  &:before {
+    content: $x-timemanagement-path54;
+    margin-left: -0.9658203125em;
+    color: rgb(202, 35, 37);
+  }
+}
+.x-timemanagement .path55 {
+  &:before {
+    content: $x-timemanagement-path55;
+    margin-left: -0.9658203125em;
+    color: rgb(180, 224, 228);
+  }
+}
+.x-timemanagement .path56 {
+  &:before {
+    content: $x-timemanagement-path56;
+    margin-left: -0.9658203125em;
+    color: rgb(180, 224, 228);
+  }
+}
+.x-timemanagement .path57 {
+  &:before {
+    content: $x-timemanagement-path57;
+    margin-left: -0.9658203125em;
+    color: rgb(191, 203, 214);
+  }
+}
+.x-timemanagement .path58 {
+  &:before {
+    content: $x-timemanagement-path58;
+    margin-left: -0.9658203125em;
+    color: rgb(254, 246, 226);
+  }
+}
+.x-timemanagement .path59 {
+  &:before {
+    content: $x-timemanagement-path59;
+    margin-left: -0.9658203125em;
+    color: rgb(222, 214, 190);
+  }
+}
+.x-timemanagement .path60 {
+  &:before {
+    content: $x-timemanagement-path60;
+    margin-left: -0.9658203125em;
+    color: rgb(180, 224, 228);
+  }
+}
+.x-timemanagement .path61 {
+  &:before {
+    content: $x-timemanagement-path61;
+    margin-left: -0.9658203125em;
+    color: rgb(179, 224, 228);
+  }
+}
+.x-timemanagement .path62 {
+  &:before {
+    content: $x-timemanagement-path62;
+    margin-left: -0.9658203125em;
+    color: rgb(179, 223, 227);
+  }
+}
+.x-timemanagement .path63 {
+  &:before {
+    content: $x-timemanagement-path63;
+    margin-left: -0.9658203125em;
+    color: rgb(36, 26, 25);
+  }
+}
+.x-timemanagement .path64 {
+  &:before {
+    content: $x-timemanagement-path64;
+    margin-left: -0.9658203125em;
+    color: rgb(35, 25, 24);
+  }
+}
+.x-timemanagement .path65 {
+  &:before {
+    content: $x-timemanagement-path65;
+    margin-left: -0.9658203125em;
+    color: rgb(44, 44, 44);
+  }
+}
+.x-timemanagement .path66 {
+  &:before {
+    content: $x-timemanagement-path66;
+    margin-left: -0.9658203125em;
+    color: rgb(164, 133, 45);
+  }
+}
+.x-timemanagement .path67 {
+  &:before {
+    content: $x-timemanagement-path67;
+    margin-left: -0.9658203125em;
+    color: rgb(133, 127, 130);
+  }
+}
+.x-timemanagement .path68 {
+  &:before {
+    content: $x-timemanagement-path68;
+    margin-left: -0.9658203125em;
+    color: rgb(217, 223, 225);
+  }
+}
+.x-timemanagement .path69 {
+  &:before {
+    content: $x-timemanagement-path69;
+    margin-left: -0.9658203125em;
+    color: rgb(180, 223, 228);
+  }
+}
+.x-timemanagement .path70 {
+  &:before {
+    content: $x-timemanagement-path70;
+    margin-left: -0.9658203125em;
+    color: rgb(14, 49, 66);
+  }
+}
+.x-timemanagement .path71 {
+  &:before {
+    content: $x-timemanagement-path71;
+    margin-left: -0.9658203125em;
+    color: rgb(253, 253, 253);
+  }
+}
+.x-timemanagement .path72 {
+  &:before {
+    content: $x-timemanagement-path72;
+    margin-left: -0.9658203125em;
+    color: rgb(180, 224, 228);
+  }
+}
+.x-timemanagement .path73 {
+  &:before {
+    content: $x-timemanagement-path73;
+    margin-left: -0.9658203125em;
+    color: rgb(230, 194, 43);
+  }
+}
+.x-timemanagement .path74 {
+  &:before {
+    content: $x-timemanagement-path74;
+    margin-left: -0.9658203125em;
+    color: rgb(180, 224, 226);
+  }
+}
+.x-timemanagement .path75 {
+  &:before {
+    content: $x-timemanagement-path75;
+    margin-left: -0.9658203125em;
+    color: rgb(179, 224, 228);
+  }
+}
+.x-timemanagement .path76 {
+  &:before {
+    content: $x-timemanagement-path76;
+    margin-left: -0.9658203125em;
+    color: rgb(180, 224, 228);
+  }
+}
+.x-timemanagement .path77 {
+  &:before {
+    content: $x-timemanagement-path77;
+    margin-left: -0.9658203125em;
+    color: rgb(180, 224, 228);
+  }
+}
+.x-timemanagement .path78 {
+  &:before {
+    content: $x-timemanagement-path78;
+    margin-left: -0.9658203125em;
+    color: rgb(43, 57, 80);
+  }
+}
+.x-timemanagement .path79 {
+  &:before {
+    content: $x-timemanagement-path79;
+    margin-left: -0.9658203125em;
+    color: rgb(180, 224, 228);
+  }
+}
+.x-timemanagement .path80 {
+  &:before {
+    content: $x-timemanagement-path80;
+    margin-left: -0.9658203125em;
+    color: rgb(43, 67, 92);
+  }
+}
+.x-timemanagement .path81 {
+  &:before {
+    content: $x-timemanagement-path81;
+    margin-left: -0.9658203125em;
+    color: rgb(180, 224, 228);
+  }
+}
+.x-timemanagement .path82 {
+  &:before {
+    content: $x-timemanagement-path82;
+    margin-left: -0.9658203125em;
+    color: rgb(43, 66, 92);
+  }
+}
+.x-timemanagement .path83 {
+  &:before {
+    content: $x-timemanagement-path83;
+    margin-left: -0.9658203125em;
+    color: rgb(180, 224, 228);
+  }
+}
+.x-timemanagement .path84 {
+  &:before {
+    content: $x-timemanagement-path84;
+    margin-left: -0.9658203125em;
+    color: rgb(180, 224, 228);
+  }
+}
+.x-timemanagement .path85 {
+  &:before {
+    content: $x-timemanagement-path85;
+    margin-left: -0.9658203125em;
+    color: rgb(237, 120, 31);
+  }
+}
+.x-timemanagement .path86 {
+  &:before {
+    content: $x-timemanagement-path86;
+    margin-left: -0.9658203125em;
+    color: rgb(229, 235, 235);
+  }
+}
+.x-timemanagement .path87 {
+  &:before {
+    content: $x-timemanagement-path87;
+    margin-left: -0.9658203125em;
+    color: rgb(254, 207, 94);
+  }
+}
+.x-timemanagement .path88 {
+  &:before {
+    content: $x-timemanagement-path88;
+    margin-left: -0.9658203125em;
+    color: rgb(250, 249, 246);
+  }
+}
+.x-timemanagement .path89 {
+  &:before {
+    content: $x-timemanagement-path89;
+    margin-left: -0.9658203125em;
+    color: rgb(245, 244, 242);
+  }
+}
+.x-timemanagement .path90 {
+  &:before {
+    content: $x-timemanagement-path90;
+    margin-left: -0.9658203125em;
+    color: rgb(239, 87, 40);
+  }
+}
+.x-timemanagement .path91 {
+  &:before {
+    content: $x-timemanagement-path91;
+    margin-left: -0.9658203125em;
+    color: rgb(180, 224, 228);
+  }
+}
+.x-timemanagement .path92 {
+  &:before {
+    content: $x-timemanagement-path92;
+    margin-left: -0.9658203125em;
+    color: rgb(215, 225, 233);
+  }
+}
+.x-timemanagement .path93 {
+  &:before {
+    content: $x-timemanagement-path93;
+    margin-left: -0.9658203125em;
+    color: rgb(254, 208, 97);
+  }
+}
+.x-timemanagement .path94 {
+  &:before {
+    content: $x-timemanagement-path94;
+    margin-left: -0.9658203125em;
+    color: rgb(179, 224, 228);
+  }
+}
+.x-timemanagement .path95 {
+  &:before {
+    content: $x-timemanagement-path95;
+    margin-left: -0.9658203125em;
+    color: rgb(251, 209, 14);
+  }
+}
+.x-timemanagement .path96 {
+  &:before {
+    content: $x-timemanagement-path96;
+    margin-left: -0.9658203125em;
+    color: rgb(222, 220, 219);
+  }
+}
+.x-timemanagement .path97 {
+  &:before {
+    content: $x-timemanagement-path97;
+    margin-left: -0.9658203125em;
+    color: rgb(156, 172, 188);
+  }
+}
+.x-timemanagement .path98 {
+  &:before {
+    content: $x-timemanagement-path98;
+    margin-left: -0.9658203125em;
+    color: rgb(179, 224, 228);
+  }
+}
+.x-timemanagement .path99 {
+  &:before {
+    content: $x-timemanagement-path99;
+    margin-left: -0.9658203125em;
+    color: rgb(243, 228, 174);
+  }
+}
+.x-timemanagement .path100 {
+  &:before {
+    content: $x-timemanagement-path100;
+    margin-left: -0.9658203125em;
+    color: rgb(180, 224, 228);
+  }
+}
+.x-timemanagement .path101 {
+  &:before {
+    content: $x-timemanagement-path101;
+    margin-left: -0.9658203125em;
+    color: rgb(230, 235, 235);
+  }
+}
+.x-timemanagement .path102 {
+  &:before {
+    content: $x-timemanagement-path102;
+    margin-left: -0.9658203125em;
+    color: rgb(67, 96, 119);
+  }
+}
+.x-timemanagement .path103 {
+  &:before {
+    content: $x-timemanagement-path103;
+    margin-left: -0.9658203125em;
+    color: rgb(180, 224, 228);
+  }
+}
+.x-timemanagement .path104 {
+  &:before {
+    content: $x-timemanagement-path104;
+    margin-left: -0.9658203125em;
+    color: rgb(180, 224, 228);
+  }
+}
+.x-timemanagement .path105 {
+  &:before {
+    content: $x-timemanagement-path105;
+    margin-left: -0.9658203125em;
+    color: rgb(180, 224, 228);
+  }
+}
+.x-timemanagement .path106 {
+  &:before {
+    content: $x-timemanagement-path106;
+    margin-left: -0.9658203125em;
+    color: rgb(180, 224, 228);
+  }
+}
+.x-timemanagement .path107 {
+  &:before {
+    content: $x-timemanagement-path107;
+    margin-left: -0.9658203125em;
+    color: rgb(180, 224, 228);
+  }
+}
+.x-timemanagement .path108 {
+  &:before {
+    content: $x-timemanagement-path108;
+    margin-left: -0.9658203125em;
+    color: rgb(75, 85, 104);
+  }
+}
+.x-timemanagement .path109 {
+  &:before {
+    content: $x-timemanagement-path109;
+    margin-left: -0.9658203125em;
+    color: rgb(181, 224, 228);
+  }
+}
+.x-timemanagement .path110 {
+  &:before {
+    content: $x-timemanagement-path110;
+    margin-left: -0.9658203125em;
+    color: rgb(217, 220, 224);
+  }
+}
+.x-timemanagement .path111 {
+  &:before {
+    content: $x-timemanagement-path111;
+    margin-left: -0.9658203125em;
+    color: rgb(180, 224, 228);
+  }
+}
+.x-timemanagement .path112 {
+  &:before {
+    content: $x-timemanagement-path112;
+    margin-left: -0.9658203125em;
+    color: rgb(63, 80, 99);
+  }
+}
+.x-timemanagement .path113 {
+  &:before {
+    content: $x-timemanagement-path113;
+    margin-left: -0.9658203125em;
+    color: rgb(217, 221, 225);
+  }
+}
+.x-timemanagement .path114 {
+  &:before {
+    content: $x-timemanagement-path114;
+    margin-left: -0.9658203125em;
+    color: rgb(179, 224, 227);
+  }
+}
+.x-timemanagement .path115 {
+  &:before {
+    content: $x-timemanagement-path115;
+    margin-left: -0.9658203125em;
+    color: rgb(44, 68, 93);
+  }
+}
+.x-timemanagement .path116 {
+  &:before {
+    content: $x-timemanagement-path116;
+    margin-left: -0.9658203125em;
+    color: rgb(179, 224, 228);
+  }
+}
+.x-timemanagement .path117 {
+  &:before {
+    content: $x-timemanagement-path117;
+    margin-left: -0.9658203125em;
+    color: rgb(42, 66, 91);
+  }
+}
+.x-timemanagement .path118 {
+  &:before {
+    content: $x-timemanagement-path118;
+    margin-left: -0.9658203125em;
+    color: rgb(130, 123, 126);
+  }
+}
+.x-timemanagement .path119 {
+  &:before {
+    content: $x-timemanagement-path119;
+    margin-left: -0.9658203125em;
+    color: rgb(225, 160, 55);
+  }
+}
+.x-timemanagement .path120 {
+  &:before {
+    content: $x-timemanagement-path120;
+    margin-left: -0.9658203125em;
+    color: rgb(194, 208, 220);
+  }
+}
+.x-timemanagement .path121 {
+  &:before {
+    content: $x-timemanagement-path121;
+    margin-left: -0.9658203125em;
+    color: rgb(249, 252, 252);
+  }
+}
+.x-timemanagement .path122 {
+  &:before {
+    content: $x-timemanagement-path122;
+    margin-left: -0.9658203125em;
+    color: rgb(179, 223, 227);
+  }
+}
+.x-timemanagement .path123 {
+  &:before {
+    content: $x-timemanagement-path123;
+    margin-left: -0.9658203125em;
+    color: rgb(129, 122, 125);
+  }
+}
+.x-timemanagement .path124 {
+  &:before {
+    content: $x-timemanagement-path124;
+    margin-left: -0.9658203125em;
+    color: rgb(254, 253, 252);
+  }
+}
+.x-timemanagement .path125 {
+  &:before {
+    content: $x-timemanagement-path125;
+    margin-left: -0.9658203125em;
+    color: rgb(245, 247, 248);
+  }
+}
+.x-timemanagement .path126 {
+  &:before {
+    content: $x-timemanagement-path126;
+    margin-left: -0.9658203125em;
+    color: rgb(180, 224, 228);
+  }
+}
+.x-timemanagement .path127 {
+  &:before {
+    content: $x-timemanagement-path127;
+    margin-left: -0.9658203125em;
+    color: rgb(130, 124, 127);
+  }
+}
+.x-timemanagement .path128 {
+  &:before {
+    content: $x-timemanagement-path128;
+    margin-left: -0.9658203125em;
+    color: rgb(190, 189, 189);
+  }
+}
+.x-timemanagement .path129 {
+  &:before {
+    content: $x-timemanagement-path129;
+    margin-left: -0.9658203125em;
+    color: rgb(62, 94, 122);
+  }
+}
+.x-timemanagement .path130 {
+  &:before {
+    content: $x-timemanagement-path130;
+    margin-left: -0.9658203125em;
+    color: rgb(128, 122, 126);
+  }
+}
+.x-timemanagement .path131 {
+  &:before {
+    content: $x-timemanagement-path131;
+    margin-left: -0.9658203125em;
+    color: rgb(182, 182, 183);
+  }
+}
+.x-timemanagement .path132 {
+  &:before {
+    content: $x-timemanagement-path132;
+    margin-left: -0.9658203125em;
+    color: rgb(189, 189, 189);
+  }
+}
+.x-timemanagement .path133 {
+  &:before {
+    content: $x-timemanagement-path133;
+    margin-left: -0.9658203125em;
+    color: rgb(213, 220, 226);
+  }
+}
+.x-timemanagement .path134 {
+  &:before {
+    content: $x-timemanagement-path134;
+    margin-left: -0.9658203125em;
+    color: rgb(205, 172, 40);
+  }
+}
+.x-timemanagement .path135 {
+  &:before {
+    content: $x-timemanagement-path135;
+    margin-left: -0.9658203125em;
+    color: rgb(176, 219, 224);
+  }
+}
+.x-timemanagement .path136 {
+  &:before {
+    content: $x-timemanagement-path136;
+    margin-left: -0.9658203125em;
+    color: rgb(189, 210, 212);
+  }
+}
+.x-timemanagement .path137 {
+  &:before {
+    content: $x-timemanagement-path137;
+    margin-left: -0.9658203125em;
+    color: rgb(131, 125, 128);
+  }
+}
+.x-timemanagement .path138 {
+  &:before {
+    content: $x-timemanagement-path138;
+    margin-left: -0.9658203125em;
+    color: rgb(186, 186, 186);
+  }
+}
+.x-timemanagement .path139 {
+  &:before {
+    content: $x-timemanagement-path139;
+    margin-left: -0.9658203125em;
+    color: rgb(185, 185, 185);
+  }
+}
+.x-timemanagement .path140 {
+  &:before {
+    content: $x-timemanagement-path140;
+    margin-left: -0.9658203125em;
+    color: rgb(185, 185, 185);
+  }
+}
+.x-timemanagement .path141 {
+  &:before {
+    content: $x-timemanagement-path141;
+    margin-left: -0.9658203125em;
+    color: rgb(185, 185, 185);
+  }
+}
+.x-timemanagement .path142 {
+  &:before {
+    content: $x-timemanagement-path142;
+    margin-left: -0.9658203125em;
+    color: rgb(185, 185, 185);
+  }
+}
+.x-timemanagement .path143 {
+  &:before {
+    content: $x-timemanagement-path143;
+    margin-left: -0.9658203125em;
+    color: rgb(185, 185, 185);
+  }
+}
+.x-timemanagement .path144 {
+  &:before {
+    content: $x-timemanagement-path144;
+    margin-left: -0.9658203125em;
+    color: rgb(31, 53, 82);
+  }
+}
+.x-timemanagement .path145 {
+  &:before {
+    content: $x-timemanagement-path145;
+    margin-left: -0.9658203125em;
+    color: rgb(199, 63, 78);
+  }
+}
+.x-timemanagement .path146 {
+  &:before {
+    content: $x-timemanagement-path146;
+    margin-left: -0.9658203125em;
+    color: rgb(35, 60, 85);
+  }
+}
+.x-timemanagement .path147 {
+  &:before {
+    content: $x-timemanagement-path147;
+    margin-left: -0.9658203125em;
+    color: rgb(228, 235, 240);
+  }
+}
+.x-timemanagement .path148 {
+  &:before {
+    content: $x-timemanagement-path148;
+    margin-left: -0.9658203125em;
+    color: rgb(119, 112, 116);
+  }
+}
+.x-timemanagement .path149 {
+  &:before {
+    content: $x-timemanagement-path149;
+    margin-left: -0.9658203125em;
+    color: rgb(20, 53, 88);
+  }
+}
+.x-timemanagement .path150 {
+  &:before {
+    content: $x-timemanagement-path150;
+    margin-left: -0.9658203125em;
+    color: rgb(70, 79, 95);
+  }
+}
+.x-timemanagement .path151 {
+  &:before {
+    content: $x-timemanagement-path151;
+    margin-left: -0.9658203125em;
+    color: rgb(214, 223, 225);
+  }
+}
+.x-timemanagement .path152 {
+  &:before {
+    content: $x-timemanagement-path152;
+    margin-left: -0.9658203125em;
+    color: rgb(120, 114, 118);
+  }
+}
+.x-timemanagement .path153 {
+  &:before {
+    content: $x-timemanagement-path153;
+    margin-left: -0.9658203125em;
+    color: rgb(186, 226, 230);
+  }
+}
+.x-timemanagement .path154 {
+  &:before {
+    content: $x-timemanagement-path154;
+    margin-left: -0.9658203125em;
+    color: rgb(183, 227, 231);
+  }
+}
+.x-timemanagement .path155 {
+  &:before {
+    content: $x-timemanagement-path155;
+    margin-left: -0.9658203125em;
+    color: rgb(235, 234, 232);
+  }
+}
+.x-timemanagement .path156 {
+  &:before {
+    content: $x-timemanagement-path156;
+    margin-left: -0.9658203125em;
+    color: rgb(236, 234, 233);
+  }
+}
+.x-timemanagement .path157 {
+  &:before {
+    content: $x-timemanagement-path157;
+    margin-left: -0.9658203125em;
+    color: rgb(220, 229, 237);
+  }
+}
+.x-timemanagement .path158 {
+  &:before {
+    content: $x-timemanagement-path158;
+    margin-left: -0.9658203125em;
+    color: rgb(19, 58, 92);
+  }
+}
+.x-timemanagement .path159 {
+  &:before {
+    content: $x-timemanagement-path159;
+    margin-left: -0.9658203125em;
+    color: rgb(190, 189, 189);
+  }
+}
+.x-timemanagement .path160 {
+  &:before {
+    content: $x-timemanagement-path160;
+    margin-left: -0.9658203125em;
+    color: rgb(31, 56, 82);
+  }
+}
+.x-timemanagement .path161 {
+  &:before {
+    content: $x-timemanagement-path161;
+    margin-left: -0.9658203125em;
+    color: rgb(180, 223, 224);
+  }
+}
+.x-timemanagement .path162 {
+  &:before {
+    content: $x-timemanagement-path162;
+    margin-left: -0.9658203125em;
+    color: rgb(119, 113, 117);
+  }
+}
+.x-timemanagement .path163 {
+  &:before {
+    content: $x-timemanagement-path163;
+    margin-left: -0.9658203125em;
+    color: rgb(52, 76, 100);
+  }
+}
+.x-timemanagement .path164 {
+  &:before {
+    content: $x-timemanagement-path164;
+    margin-left: -0.9658203125em;
+    color: rgb(28, 53, 79);
+  }
+}
+.x-timemanagement .path165 {
+  &:before {
+    content: $x-timemanagement-path165;
+    margin-left: -0.9658203125em;
+    color: rgb(58, 81, 105);
+  }
+}
+.x-timemanagement .path166 {
+  &:before {
+    content: $x-timemanagement-path166;
+    margin-left: -0.9658203125em;
+    color: rgb(178, 225, 231);
+  }
+}
+.x-timemanagement .path167 {
+  &:before {
+    content: $x-timemanagement-path167;
+    margin-left: -0.9658203125em;
+    color: rgb(193, 207, 218);
+  }
+}
+.x-timemanagement .path168 {
+  &:before {
+    content: $x-timemanagement-path168;
+    margin-left: -0.9658203125em;
+    color: rgb(118, 112, 116);
+  }
+}
+.x-timemanagement .path169 {
+  &:before {
+    content: $x-timemanagement-path169;
+    margin-left: -0.9658203125em;
+    color: rgb(27, 63, 97);
+  }
+}
+.x-timemanagement .path170 {
+  &:before {
+    content: $x-timemanagement-path170;
+    margin-left: -0.9658203125em;
+    color: rgb(87, 87, 86);
+  }
+}
+.x-timemanagement .path171 {
+  &:before {
+    content: $x-timemanagement-path171;
+    margin-left: -0.9658203125em;
+    color: rgb(179, 179, 181);
+  }
+}
+.x-timemanagement .path172 {
+  &:before {
+    content: $x-timemanagement-path172;
+    margin-left: -0.9658203125em;
+    color: rgb(44, 68, 93);
+  }
+}
+.x-timemanagement .path173 {
+  &:before {
+    content: $x-timemanagement-path173;
+    margin-left: -0.9658203125em;
+    color: rgb(205, 221, 226);
+  }
+}
+.x-timemanagement .path174 {
+  &:before {
+    content: $x-timemanagement-path174;
+    margin-left: -0.9658203125em;
+    color: rgb(79, 79, 78);
+  }
+}
+.x-timemanagement .path175 {
+  &:before {
+    content: $x-timemanagement-path175;
+    margin-left: -0.9658203125em;
+    color: rgb(248, 207, 23);
+  }
+}
+.x-timemanagement .path176 {
+  &:before {
+    content: $x-timemanagement-path176;
+    margin-left: -0.9658203125em;
+    color: rgb(118, 111, 115);
+  }
+}
+.x-timemanagement .path177 {
+  &:before {
+    content: $x-timemanagement-path177;
+    margin-left: -0.9658203125em;
+    color: rgb(187, 200, 211);
+  }
+}
+.x-timemanagement .path178 {
+  &:before {
+    content: $x-timemanagement-path178;
+    margin-left: -0.9658203125em;
+    color: rgb(241, 201, 200);
+  }
+}
+.x-timemanagement .path179 {
+  &:before {
+    content: $x-timemanagement-path179;
+    margin-left: -0.9658203125em;
+    color: rgb(213, 205, 204);
+  }
+}
+.x-timemanagement .path180 {
+  &:before {
+    content: $x-timemanagement-path180;
+    margin-left: -0.9658203125em;
+    color: rgb(245, 225, 151);
+  }
+}
+.x-timemanagement .path181 {
+  &:before {
+    content: $x-timemanagement-path181;
+    margin-left: -0.9658203125em;
+    color: rgb(217, 208, 210);
+  }
+}
+.x-timemanagement .path182 {
+  &:before {
+    content: $x-timemanagement-path182;
+    margin-left: -0.9658203125em;
+    color: rgb(40, 68, 100);
+  }
+}
+.x-timemanagement .path183 {
+  &:before {
+    content: $x-timemanagement-path183;
+    margin-left: -0.9658203125em;
+    color: rgb(225, 110, 53);
+  }
+}
+.x-timemanagement .path184 {
+  &:before {
+    content: $x-timemanagement-path184;
+    margin-left: -0.9658203125em;
+    color: rgb(228, 198, 64);
+  }
+}
+.x-timemanagement .path185 {
+  &:before {
+    content: $x-timemanagement-path185;
+    margin-left: -0.9658203125em;
+    color: rgb(195, 199, 200);
+  }
+}
+.x-timemanagement .path186 {
+  &:before {
+    content: $x-timemanagement-path186;
+    margin-left: -0.9658203125em;
+    color: rgb(77, 99, 122);
+  }
+}
+.x-timemanagement .path187 {
+  &:before {
+    content: $x-timemanagement-path187;
+    margin-left: -0.9658203125em;
+    color: rgb(32, 46, 69);
+  }
+}
+.x-timemanagement .path188 {
+  &:before {
+    content: $x-timemanagement-path188;
+    margin-left: -0.9658203125em;
+    color: rgb(208, 225, 230);
+  }
+}
+.x-timemanagement .path189 {
+  &:before {
+    content: $x-timemanagement-path189;
+    margin-left: -0.9658203125em;
+    color: rgb(239, 245, 249);
+  }
+}
+.x-timemanagement .path190 {
+  &:before {
+    content: $x-timemanagement-path190;
+    margin-left: -0.9658203125em;
+    color: rgb(246, 251, 248);
+  }
+}
+.x-timemanagement .path191 {
+  &:before {
+    content: $x-timemanagement-path191;
+    margin-left: -0.9658203125em;
+    color: rgb(229, 236, 242);
+  }
+}
+.x-timemanagement .path192 {
+  &:before {
+    content: $x-timemanagement-path192;
+    margin-left: -0.9658203125em;
+    color: rgb(182, 195, 207);
+  }
+}
+.x-timemanagement .path193 {
+  &:before {
+    content: $x-timemanagement-path193;
+    margin-left: -0.9658203125em;
+    color: rgb(188, 200, 212);
+  }
+}
+.x-timemanagement .path194 {
+  &:before {
+    content: $x-timemanagement-path194;
+    margin-left: -0.9658203125em;
+    color: rgb(42, 33, 32);
+  }
+}
+.x-timemanagement .path195 {
+  &:before {
+    content: $x-timemanagement-path195;
+    margin-left: -0.9658203125em;
+    color: rgb(201, 140, 27);
+  }
+}
+.x-timemanagement .path196 {
+  &:before {
+    content: $x-timemanagement-path196;
+    margin-left: -0.9658203125em;
+    color: rgb(253, 252, 249);
+  }
+}
+.x-timemanagement .path197 {
+  &:before {
+    content: $x-timemanagement-path197;
+    margin-left: -0.9658203125em;
+    color: rgb(50, 82, 113);
+  }
+}
+.x-timemanagement .path198 {
+  &:before {
+    content: $x-timemanagement-path198;
+    margin-left: -0.9658203125em;
+    color: rgb(45, 69, 94);
+  }
+}
+.x-timemanagement .path199 {
+  &:before {
+    content: $x-timemanagement-path199;
+    margin-left: -0.9658203125em;
+    color: rgb(128, 205, 234);
+  }
+}
+.x-timemanagement .path200 {
+  &:before {
+    content: $x-timemanagement-path200;
+    margin-left: -0.9658203125em;
+    color: rgb(114, 107, 112);
+  }
+}
+.x-solidity .path1 {
+  &:before {
+    content: $x-solidity-path1;
+    color: rgb(28, 28, 28);
+  }
+}
+.x-solidity .path2 {
+  &:before {
+    content: $x-solidity-path2;
+    margin-left: -1em;
+    color: rgb(28, 28, 28);
+  }
+}
+.x-solidity .path3 {
+  &:before {
+    content: $x-solidity-path3;
+    margin-left: -1em;
+    color: rgb(55, 55, 55);
+  }
+}
+.x-solidity .path4 {
+  &:before {
+    content: $x-solidity-path4;
+    margin-left: -1em;
+    color: rgb(55, 55, 55);
+  }
+}
+.x-solidity .path5 {
+  &:before {
+    content: $x-solidity-path5;
+    margin-left: -1em;
+    color: rgb(101, 101, 101);
+  }
+}
+.x-solidity .path6 {
+  &:before {
+    content: $x-solidity-path6;
+    margin-left: -1em;
+    color: rgb(101, 101, 101);
+  }
+}
+.x-solidity .path7 {
+  &:before {
+    content: $x-solidity-path7;
+    margin-left: -1em;
+    color: rgb(56, 56, 56);
+  }
+}
+.x-solidity .path8 {
+  &:before {
+    content: $x-solidity-path8;
+    margin-left: -1em;
+    color: rgb(56, 56, 56);
+  }
+}
+.x-image1 {
+  &:before {
+    content: $x-image1;
+  }
+}
+.x-javascript {
+  &:before {
+    content: $x-javascript;
+    color: #e4e900;
+  }
+}
+.x-scrollup .path1 {
+  &:before {
+    content: $x-scrollup-path1;
+    color: rgb(229, 127, 71);
+  }
+}
+.x-scrollup .path2 {
+  &:before {
+    content: $x-scrollup-path2;
+    margin-left: -1em;
+    color: rgb(229, 127, 71);
+  }
+}
+.x-scrollup .path3 {
+  &:before {
+    content: $x-scrollup-path3;
+    margin-left: -1em;
+    color: rgb(230, 132, 68);
+  }
+}
+.x-scrolldown {
+  &:before {
+    content: $x-scrolldown;
+    color: #fff;
+  }
+}
+.x-address {
+  &:before {
+    content: $x-address;
+  }
+}
+.x-email {
+  &:before {
+    content: $x-email;
+  }
+}
+.x-github {
+  &:before {
+    content: $x-github;
+  }
+}
+.x-linkedin {
+  &:before {
+    content: $x-linkedin;
+  }
+}
+.x-phone {
+  &:before {
+    content: $x-phone;
+  }
+}
+.x-twitter {
+  &:before {
+    content: $x-twitter;
+  }
+}
