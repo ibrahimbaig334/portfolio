@@ -12,7 +12,7 @@ const encode = (data) =>
  * Sends contact form messages via Netlify Forms.
  * Works on deployed Netlify site (no SMTP credentials required in frontend).
  */
-export const sendEmail = async (name, userEmail, message) => {
+export const sendEmail = async (name, userEmail, message, botField = "") => {
   try {
     const response = await fetch("/", {
       method: "POST",
@@ -24,6 +24,7 @@ export const sendEmail = async (name, userEmail, message) => {
         fullName: name,
         email: userEmail,
         message,
+        "bot-field": botField,
       }),
     });
 

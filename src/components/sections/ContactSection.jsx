@@ -106,6 +106,7 @@ export default function ContactSection() {
         formData.fullName,
         formData.email,
         formData.message,
+        honeypot,
       );
 
       if (sent) {
@@ -331,23 +332,10 @@ export default function ContactSection() {
                 Send Message
               </h3>
 
-              {/* Honeypot */}
-              <label className="sr-only" htmlFor="bot-field">
-                Website
-              </label>
-              <input
-                id="bot-field"
-                name="bot-field"
-                value={honeypot}
-                onChange={(e) => setHoneypot(e.target.value)}
-                className="hidden"
-                tabIndex={-1}
-                autoComplete="off"
-              />
-
               <form
                 name="portfolio-contact"
                 method="POST"
+                action="/"
                 data-netlify="true"
                 netlify-honeypot="bot-field"
                 onSubmit={handleSubmit}
@@ -357,6 +345,18 @@ export default function ContactSection() {
                   type="hidden"
                   name="form-name"
                   value="portfolio-contact"
+                />
+                <label className="sr-only" htmlFor="bot-field">
+                  Website
+                </label>
+                <input
+                  id="bot-field"
+                  name="bot-field"
+                  value={honeypot}
+                  onChange={(e) => setHoneypot(e.target.value)}
+                  className="hidden"
+                  tabIndex={-1}
+                  autoComplete="off"
                 />
                 <div>
                   <label
