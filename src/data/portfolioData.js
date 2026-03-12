@@ -59,7 +59,7 @@ export const portfolioData = {
         gradientTo: "to-accent-500",
         skills: [
           "Node.js",
-          "Express",
+          "ExpressJS",
           "NestJS",
           "REST APIs",
           "Authentication",
