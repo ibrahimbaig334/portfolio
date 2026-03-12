@@ -107,7 +107,7 @@ export const portfolioData = {
   experience: [
     {
       company: "Hashcore",
-      location: "Karachi, Pakistan",
+      location: "Delaware 19901, USA",
       startDate: "Aug 2024",
       currentlyWorking: true,
       careerProgression: [
