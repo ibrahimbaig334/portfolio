@@ -21,11 +21,11 @@ export default function Header() {
       href: "#portfolio",
       ariaLabel: "Navigate to portfolio section",
     },
-    {
-      label: "Testimonials",
-      href: "#testimonials",
-      ariaLabel: "Navigate to testimonials section",
-    },
+    // {
+    //   label: "Testimonials",
+    //   href: "#testimonials",
+    //   ariaLabel: "Navigate to testimonials section",
+    // },
     {
       label: "Contact",
       href: "#contact",

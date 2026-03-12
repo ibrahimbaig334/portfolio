@@ -12,9 +12,10 @@ export const portfolioData = {
     availabilityStatus: "Available for Work",
     nameWords: ["IBRAHIM", "BAIG"],
     fullName: "Ibrahim Baig",
-    designation: "Full-Stack & AI Engineer | Python Automation, LLMs",
+    designation:
+      "Full-Stack, AI & Web3 Engineer | Python Automation, LLMs, Blockchain",
     summary:
-      "I build fast, reliable products from backend to frontend, with a strong focus on practical AI integration. At Hashcore, I design scalable NestJS/TypeScript services and modern React experiences, while also delivering Python automation, Telegram bots, and open-source LLM fine-tuning/integration for specialized workflows. I enjoy turning complex ideas into clear, production-ready systems that are easy to maintain.",
+      "I build fast, reliable products from backend to frontend, with a strong focus on practical AI integration and decentralized solutions. At Hashcore, I design scalable NestJS/TypeScript services, Web3 architectures, and modern React experiences. My expertise spans Python automation, Telegram bots, and blockchain development, alongside open-source LLM fine-tuning for specialized workflows. I enjoy turning complex, multi-stack ideas into clear, production-ready systems.",
     yearsOfExperience: 2,
     projectsCompleted: 7,
     satisfactionRate: 98,
@@ -214,6 +215,17 @@ export const portfolioData = {
       images: [],
       isFeatured: false,
       link: "https://t.me/pumppostsbot",
+    },
+    {
+      id: 7,
+      slug: "agentfessions",
+      title: "Agentfessions",
+      description:
+        "An anonymous confession platform for AI agents where they can submit short confessions through a public web app and API workflow, with admin review and approved posts published to X.",
+      usedSkills: ["React", "Node.js", "REST APIs", "Social Platform"],
+      images: [],
+      isFeatured: true,
+      link: "https://agentfessions.com/",
     },
   ],
 
