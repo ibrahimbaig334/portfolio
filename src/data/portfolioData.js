@@ -258,7 +258,11 @@ export const portfolioData = {
         icon: "linkedin",
         url: "https://www.linkedin.com/in/ibrahim-baig-727ba5330/",
       },
-      { name: "X", icon: "x", url: "https://twitter.com" },
+      { 
+        name: "X",
+        icon: "x",
+        url: "https://x.com/ibrahim_ba35486"
+      },
     ],
   },
 };
