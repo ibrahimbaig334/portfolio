@@ -13,7 +13,7 @@ export const portfolioData = {
     nameWords: ["IBRAHIM", "BAIG"],
     fullName: "Ibrahim Baig",
     designation:
-      "Full-Stack, AI & Web3 Engineer | Python Automation, LLMs, Blockchain",
+      "Full-Stack, AI & Web3 Engineer | Python Automation, LLMs, Blockchain ( XYPHER )",
     summary:
       "I build fast, reliable products from backend to frontend, with a strong focus on practical AI integration and decentralized solutions. At Hashcore, I design scalable NestJS/TypeScript services, Web3 architectures, and modern React experiences. My expertise spans Python automation, Telegram bots, and blockchain development, alongside open-source LLM fine-tuning for specialized workflows. I enjoy turning complex, multi-stack ideas into clear, production-ready systems.",
     yearsOfExperience: 2,
